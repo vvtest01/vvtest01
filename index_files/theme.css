@@ -21,6 +21,18 @@ body {
 	font-size: 1.2em;
 }
 
+#trying {
+  padding: 0 300px;
+}
+
+.gifplace {
+  text-align: center;
+}
+
+.gifplace img {
+  width: 100%;
+}
+
 a {
 	color: #fff;
 }
@@ -35,19 +47,35 @@ a:hover {
       color: #FFFFFF; 
       padding: 15px;
       font-size: 15px;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
       box-shadow: 0 1px 10px rgba(0,0,0,0.3);
   }
   /* Tooltip on top */
 .tooltip.top > .tooltip-arrow {
-      border-top: 5px solid green;
-      opacity: 0;
+      display: none;
   }
 
 #buttonz {
   	border-radius: 50%;
-  	height: 150px;
-  	width: 150px;
-  	font-size: 50px;
-  	padding-top: 40px;
+  	height: 70px;
+  	width: 70px;
+  	font-size: 30px;
+  	padding-top: 14px;
+    margin-bottom: 50px;
+  }
+
+  .over-image {
+    margin-top: -37px;
+  }
+
+  .over-image > a > span {
+    transition: all 0.6s ease;
+    background-color: #1bbc9b;
+  }
+
+  .over-image > a > span:hover {
+    top: -5px;
+    color: rgba(255,255,255,0.7);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    background-color: #15997f;
   }
