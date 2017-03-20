@@ -5,3 +5,9 @@ $(function () {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+$(function(){
+    $('.test').tooltip({
+        container: '.test'
+    });
+});
