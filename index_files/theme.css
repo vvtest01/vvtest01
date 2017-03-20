@@ -1,0 +1,53 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+#myModal .modal-body {
+	font-size: 1.2em;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.tooltip > .tooltip-inner {
+      background-color: rgba(0,0,0,0.8); 
+      color: #FFFFFF; 
+      padding: 15px;
+      font-size: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+  }
+  /* Tooltip on top */
+.tooltip.top > .tooltip-arrow {
+      border-top: 5px solid green;
+      opacity: 0;
+  }
+
+#buttonz {
+  	border-radius: 50%;
+  	height: 150px;
+  	width: 150px;
+  	font-size: 50px;
+  	padding-top: 40px;
+  }
