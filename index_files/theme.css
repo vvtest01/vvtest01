@@ -57,7 +57,7 @@ a:hover {
       box-shadow: 0 1px 10px rgba(0,0,0,0.3);
   }
 
-.tooltip.top > .tooltip-arrow {
+.tooltip-arrow {
       display: none;
   }
 
