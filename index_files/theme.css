@@ -43,9 +43,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.test > .tooltip {
-  top:50px !important;
-}
+
 
 .tooltip > .tooltip-inner {
   width: 150px;
@@ -74,13 +72,13 @@ a:hover {
     margin-top: -37px;
   }
 
-  .over-image >  span {
+  .over-image > a > span {
     transition: all 0.6s ease;
     background-color: #1bbc9b;
     color: #fff;
   }
 
-  .over-image > span:hover {
+  .over-image > a > span:hover {
     top: -5px;
     color: rgba(255,255,255,0.7);
     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
