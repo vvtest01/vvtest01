@@ -15,6 +15,7 @@
     <link href="./index_files/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="./index_files/bootstrap-theme.min.css" rel="stylesheet">
+     <link href="./index_files/animate.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -94,9 +95,11 @@
         </div>
 
         <div class="col-md-8 gifplace">
-          <img src="http://v-vdesign.com/wp-content/uploads/2017/02/nia_6_.gif" id="gifimage">
+        <div class="wow fadeIn" data-wow-duration="4s">
+          <img src="http://v-vdesign.com/wp-content/uploads/2017/02/nia_6_.gif">
+          </div>
 
-          <div class="over-image">
+          <div class="over-image wow fadeIn" data-wow-delay="0.5s">
             <a data-toggle="tooltip" data-placement="bottom" title="Here we have some text and stuff">
               <span type="button" class="btn glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
             </a>
@@ -147,6 +150,10 @@
     <script src="./index_files/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./index_files/bootstrap.min.js"></script>
+    <script src="./index_files/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="./index_files/theme.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
