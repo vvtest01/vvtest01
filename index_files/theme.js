@@ -12,3 +12,7 @@ $(function(){
     });
 });
 
+  // Run it on single element
+  $(function(){
+    $('#theting').parallaxify(img);
+});
