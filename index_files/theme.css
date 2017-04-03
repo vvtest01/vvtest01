@@ -2,7 +2,10 @@
 
 body {
   font-family: 'Nanum Gothic', sans-serif;
-  word-break: break-all;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 h1 {
@@ -59,6 +62,8 @@ hr {
   margin: 0 auto;
 }
 
+/* HEADER */
+
 .dlhead {
   background-color: #f8f8f8;
   border-bottom: 1px #bbbdbf solid;
@@ -95,6 +100,10 @@ hr {
   font-weight: 900;
   float: left;
 }
+
+/* END HEADER */
+
+/* MOBILE */
 
 .mainlogo {
   text-align: center;
@@ -133,10 +142,31 @@ hr {
   background-color: #fff;
   padding: 2px 0 0 2px;
   margin-bottom: 5px;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .pill:hover {
   cursor: pointer;
+}
+
+.mint:hover {
+  background-color: #10bcc7;
+  border-color: #10bcc7;
+}
+
+.mint:hover p {
+  color: #fff;
+}
+
+.blue:hover {
+  background-color: #226bb4;
+  border-color: #226bb4;
+}
+
+.blue:hover p {
+  color: #fff;
 }
 
 .pill-big {
@@ -149,6 +179,9 @@ hr {
   background-color: #fff;
   padding: 2px 0 0 2px;
   margin-bottom: 5px;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .pill-big:hover {
@@ -191,10 +224,18 @@ hr {
   padding-top: 102px;
 }
 
+/* END MOBILE */
+
+/* HOUSE */
+
 .housepart {
   padding-top: 10px;
   text-align: center;
 }
+
+/* END HOUSE */
+
+/* FOOTER */
 
 .footer {
   background-color: #555657;
@@ -227,6 +268,10 @@ hr {
   padding-top: 20px;
 }
 
+.modal-img {
+  cursor: pointer;
+}
+
 .logosep {
   color: #929497;
   font-weight: 400;
@@ -242,17 +287,61 @@ hr {
   line-height: 10px; 
 }
 
-#myModal .modal-body {
-	font-size: 1.2em;
+/* END FOOTER */
+
+/* MODAL DESIGN */
+
+.modal-body {
+  width: 90%;
+  margin: 0 auto;
 }
 
+.modal-body p {
+  color: #6d6e70;
+  line-height: 1.7em;
+}
+
+.modal-header {
+  border-bottom: 1px #bbbdbf solid;
+}
+
+.modal-title {
+  color: #00beca;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.modal-subtitle {
+  color: #404041;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modal-readmore {
+  text-align: right;
+}
+
+.modal-sep {
+  background: #bbbdbf;
+  width: 100%;
+}
+
+.modal-header .close {
+  font-size: 35px;
+  font-weight: 400;
+  color: #bbbdbf;
+  opacity: 1;
+}
+
+/* END MODAL */
+
 a {
-	color: #fff;
+	color: #6d6e70;
 }
 
 a:hover {
-	color: #fff;
-	text-decoration: none;
+	color: #0739a9;
+	text-decoration: underline;
 }
 
 .tooltip > .tooltip-inner {
@@ -268,31 +357,4 @@ a:hover {
 .tooltip-arrow {
       display: none;
   }
-
-#buttonz {
-  	border-radius: 50%;
-  	height: 70px;
-  	width: 70px;
-  	font-size: 30px;
-  	padding-top: 14px;
-    margin-bottom: 50px;
-  }
-
-  .over-image {
-    margin-top: -37px;
-  }
-
-  .over-image > a > span {
-    transition: all 0.6s ease;
-    background-color: #1bbc9b;
-    color: #fff;
-  }
-
-  .over-image > a > span:hover {
-    top: -5px;
-    color: rgba(255,255,255,0.7);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    background-color: #15997f;
-  }
-
   
