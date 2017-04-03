@@ -42,103 +42,345 @@
 
     <div class="container-fluid" role="main">
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">HERE IS A TITLE</h4>
-      </div>
-      <div class="modal-body">
-        Bacon ipsum dolor amet prosciutto cupim corned beef, tenderloin ground round salami chuck tri-tip brisket pig beef pancetta. Venison meatloaf ham kevin, ground round hamburger beef ribs chicken corned beef alcatra shank shankle beef. Pork belly meatball kielbasa fatback rump salami picanha jowl pancetta turkey meatloaf swine t-bone. Ribeye alcatra ball tip bacon. Strip steak landjaeger swine tail jowl sausage pancetta kielbasa alcatra salami bresaola ground round tenderloin boudin. Pig spare ribs meatloaf, tri-tip jowl ham chuck doner pastrami shank jerky sirloin biltong frankfurter turducken. Porchetta prosciutto pork loin chuck.
 
-        <img src="http://v-vdesign.com/wp-content/uploads/2017/01/17.01.12_thumbnail_l.png" style="width: 100%">
+<div w3-include-html="modals.html"></div>
+<!-- Modal -->
+
+  <!-- TOP HEADER -->
+    <div class="row dlhead">
+      <div id="download">
+        <div class="col-md-6 ttalogo"><img src="./img/TTA_logo.png"></div>
+
+        <div class="col-md-6 dlbtn">
+          <button type="button" class="btn btn-lg glyphicon glyphicon-chevron-right"><span class="dlbtntext">PDF 다운로드</span></button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-      <div class="row" id="trying">
-        <div class="col-md-2">
-        <!-- Button trigger modal -->
-          <div>
-            <a href="./17.02.28_TTA.pdf">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
+  <!-- LOGO -->
+    <div class="row mainlogo">
+      <div class="col-md-12">
+        <img src="./img/logo.png">
+      </div>
+    </div>
+
+  <!-- MOBILE PART -->
+    <div class="row mobilepart">
+
+    <div class="row widthfix">
+
+        <div class="col-md-4 pills-left">
+          <div class="featuretitle">
+            <h2>주요 기술 및 표준</h2>
+          </div>
+
+          <div class="pillseparation">
+            <div class="pill" type="button" data-toggle="modal" data-target="#myModal" aria-hidden="true">
+
+              <div class="pill-content">
+                <img src="./img/wcdma.png">
+              </div>
+
+              <div>
+                <p class="pill-title">WCDMA, LTE, LTE-Advanced</p>
+                <p class="pill-desc">3GPP TS 36.xxx<br>
+                TTAT.3G-36.xxx</p>
+              </div>
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/wifi.png">
+              </div>
+
+              <div>
+                <p class="pill-title">Wi-Fi</p>
+                <p class="pill-desc">IEEE 802.11 a/b/g/n/ac<br>
+                TTAE.IE-802.11-2012</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/volte.png">
+              </div>
+
+              <div>
+                <p class="pill-title">VoLTE</p>
+                <p class="pill-desc">GSMA IR.92<br>
+                TTAK.KO-06.0338</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/telephone.png">
+              </div>
+
+              <div>
+                <p class="pill-title">음성통화 <span style="font-weight:400; font-size:13px;">AMR-NB, AMR-WB 코덱</span></p>
+                <p class="pill-desc">ITU-T G.722.2<br>
+                TTAE.3G-22.076</p>
+              </div>
+
+            </div>
+            
           </div>
 
           <div>
-            <a href="./TTA.pdf">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
 
-          <div>
-            <a data-toggle="tooltip" data-placement="left" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+            <div class="pill">
 
-          <div>
-            <a data-toggle="tooltip" data-placement="left" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+              <div class="pill-content">
+                <img src="./img/nfc.png">
+              </div>
 
-          <div>
-            <a data-toggle="tooltip" data-placement="left" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
+              <div>
+                <p class="pill-title">NFC</p>
+                <p class="pill-desc">NFC Forum specification,<br>
+                TTAK.KO-10.0731</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/zigbee.png">
+              </div>
+
+              <div>
+                <p class="pill-title">ZigBee</p>
+                <p class="pill-desc">ZigBee Alliance specification,<br>
+                TTAK.KO-04.0216</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/bluetooth.png">
+              </div>
+
+              <div>
+                <p class="pill-title">Bluetooth</p>
+                <p class="pill-desc">Bluetooth SIG specification,<br>
+                TTAE.IF-RFC7668</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/nbiot.png">
+              </div>
+
+              <div>
+                <p class="pill-title">NarrowBand IoT</p>
+                <p class="pill-desc">3GPP Release 13</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/lora.png">
+              </div>
+
+              <div>
+                <p class="pill-title">LoRa</p>
+                <p class="pill-desc">LoRaWAN R1.0</p>
+              </div>
+
+            </div>
+            
           </div>
+        </div>
+
+        <div class="col-md-4 iotdiv">
+
+      <div class="maintitle">
+          <h1>사물 인터넷 서비스</h1>
+          <h3>(<span class="strong">IoT</span> : <span class="strong">I</span>nternet <span class="strong">o</span>f <span class="strong">T</span>hings)</h3>
+        </div>
+        <div>
+          <p>인터넷으로 사물은 물론, 현실과 가상 세계의<br>
+          모든 정보와 상호 작용하는 개념</p>
+        </div>
+
+        <div>
+          <img style="width: 100%;" src="./img/phone.png">
+        </div>
 
         </div>
 
-        <div class="col-md-8 gifplace">
-        <div class="wow fadeIn" data-wow-duration="4s" id="theting" data-parallaxify-range-x="100" data-parallaxify-range-y="50">
-          <img src="http://v-vdesign.com/wp-content/uploads/2017/02/nia_6_.gif">
+        <div class="col-md-4 pills">
+
+          <div class="pillseparation-right">
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/mobileweb.png">
+              </div>
+
+              <div>
+                <p class="pill-title">모바일웹</p>
+                <p class="pill-desc">W3C WCAG 2.0x<br>
+                TTAK.KO-10.0307</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/video.png">
+              </div>
+
+              <div>
+                <p class="pill-title">비디오 / DMB</p>
+                <p class="pill-desc">ITU H.264<br>
+                TTAK.KO-07.0110</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/voice.png">
+              </div>
+
+              <div>
+                <p class="pill-title">음성인식</p>
+                <p class="pill-desc">3GPP TS 22.243<br>
+                TTAK.KO-06.0367</p>
+              </div>
+
+            </div>
+
+            <div class="pill">
+
+              <div class="pill-content">
+                <img src="./img/mobilepay.png">
+              </div>
+
+              <div>
+                <p class="pill-title">모바일 결제</p>
+                <p class="pill-desc">ISO/IEC 10373-6<br>
+                TTAK.KO-12.0269</p>
+              </div>
+
+            </div>
+            
           </div>
 
-          <div class="over-image wow fadeIn zoomIn" data-wow-delay="0.5s">
-            <a data-toggle="tooltip" data-placement="bottom" title="Here we have some text and stuff">
-              <span type="button" class="btn glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-2">
-        <!-- Button trigger modal -->
           <div>
-            <a data-toggle="tooltip" data-placement="right" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+            
+            <div class="pill-big">
+              <div style="height: 175px; float: left; margin-right: 5px;">
+              <img src="./img/iot.png">
+              </div>
+              <div>
+              <p class="pill-title" style="margin-bottom: 10px;">IoT 데이터 전송 프로토콜</p>
+              <p class="pill-desc" style="margin-bottom: 10px;"><span style="font-weight: 600;">HTTP 웹 프로토콜</span><br>
+              ETSI TS 118 109</p>
 
-          <div>
-            <a data-toggle="tooltip" data-placement="right" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+              <p class="pill-desc" style="margin-bottom: 10px;"><span style="font-weight: 600;">HTTP 웹 프로토콜</span><br>
+              ETSI TS 118 109</p>
 
-          <div>
-            <a data-toggle="tooltip" data-placement="right" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+              <p class="pill-desc" style="margin-bottom: 10px;"><span style="font-weight: 600;">HTTP 웹 프로토콜</span><br>
+              ETSI TS 118 109</p>
+              </div>
+            </div>
 
-          <div>
-            <a data-toggle="tooltip" data-placement="right" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
-          </div>
+            <div class="pill">
 
-          <div>
-            <a data-toggle="tooltip" data-placement="right" title="Here we have some text and stuff">
-              <span type="button" class="btn btn-primary btn-lg glyphicon glyphicon-play-circle" id="buttonz" data-toggle="modal" data-target="#myModal" aria-hidden="true"></span>
-            </a>
+              <div class="pill-content">
+                <img src="./img/cloud.png">
+              </div>
+
+              <div>
+                <p class="pill-title">IoT 디바이스 관리 표준</p>
+                <p class="pill-desc">OMA DM, OMA LWM2M,<br>
+                BBF TR-069</p>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
+
+    </div>
+
+    <div class="row housepart">
+      <div class="col-md-12">
+        <img src="./img/house.png">
+      </div>
+    </div>
+
+    <div class="row footer">
+
+      <div class="row widthfix">
+
+        <div class="col-md-12 logopart">
+
+          <div class="row logocenter">
+            <div class="col-md-4 line"><hr></div>
+
+            <div class="col-md-4 logotitle">
+              <h4>IoT 플랫폼 표준단체</h4>
+            </div>
+
+            <div class="col-md-4 line"><hr style="float: right;"></div>
+          </div>
+
+          <div class="row clientlogos">
+
+            <div class="col-md-12">
+
+              <img src="./img/onemm.png"> <span class="logosep">|</span>
+
+              <img src="./img/ocf.png"> <span class="logosep">|</span>
+
+              <img src="./img/thread.png"> <span class="logosep">|</span>
+
+              <img src="./img/oasis.png"> <span class="logosep">|</span>
+
+              <img src="./img/omg.png"> <span class="logosep">|</span>
+
+              <img src="./img/ieee.png"> <span class="logosep">|</span>
+
+              <img src="./img/iso.png">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 copyright">
+          <h5>Copyright 2016 TTA All Rights Reserved</h5><br>
+          <h6>Created by Vice Versa design studio</h6>
+        </div>
+      </div>
+
+    </div>  
+
+    </div>    
 
 
     </div> <!-- /container -->
@@ -155,6 +397,10 @@
               new WOW().init();
               </script>
     <script src="./index_files/jquery.parallaxify.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+              <script>
+              w3IncludeHTML();
+              </script>
     <script src="./index_files/theme.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
