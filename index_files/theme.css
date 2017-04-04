@@ -14,6 +14,7 @@ h1 {
   color: #0a5088;
   font-weight: 600;
   font-size: 36px;  
+  margin-top: 10px;
 }
 
 h2 {
@@ -93,6 +94,7 @@ hr {
   margin: 0 auto;
   width: 1000px;
   height: 70px;
+  padding-top: 3px;
 }
 
 .dlbtn {
@@ -332,6 +334,10 @@ hr {
 
 /* MODAL DESIGN */
 
+.modal {
+  text-align: center;
+}
+
 .modal-body {
   width: 90%;
   margin: 0 auto;
@@ -339,16 +345,29 @@ hr {
 
 .modal-body p {
   color: #6d6e70;
+  font-size: 15px;
   line-height: 1.9em;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
 }
 
 .modal-dialog {
   margin-top: 150px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .modal-header {
   border-bottom: 1px #bbbdbf solid;
-  padding-left: 40px;
+  padding-left: 43px;
 }
 
 .modal-title {
@@ -366,6 +385,7 @@ hr {
 
 .modal-readmore {
   text-align: right;
+  font-size: 14px;
 }
 
 .modal-sep {
