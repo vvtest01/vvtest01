@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Nanum Gothic', sans-serif;
+  word-break: keep-all;
   overflow-x: hidden;
 }
 
@@ -45,13 +46,14 @@ h6 {
 p {
   color: #222222;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 hr {
   background: #d2b390;
   height: 1px;
   width: 340px;
+  border: 0;
 }
 
 .strong {
@@ -106,30 +108,30 @@ hr {
 
 /* MOBILE */
 
-.mainlogo {
+.main-logo {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.maintitle {
+.main-title {
   margin: 20px auto 10px;
   text-align: center;
   border-top: 2px #c5a67c solid;
   border-bottom: 2px #c5a67c solid;
 }
 
-.mobilepart {
+.mobile-part {
   background-color: #e8e8e8;
   height: 750px;
 }
 
 .iotdiv {
   text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
-.featuretitle {
+.feature-title {
   padding-top: 50px;
 }
 
@@ -216,11 +218,11 @@ hr {
   text-align: right;
 }
 
-.pillseparation {
+.pill-separation {
   margin-bottom: 20px;
 }
 
-.pillseparation-right {
+.pill-separation-right {
   margin-bottom: 20px;
   padding-top: 102px;
 }
@@ -229,7 +231,7 @@ hr {
 
 /* HOUSE */
 
-.housepart {
+.house-part {
   padding-top: 10px;
   text-align: center;
 }
@@ -243,18 +245,18 @@ hr {
   height: 320px;
 }
 
-.logopart {
+.logo-part {
   background-color: #fff;
   height: 140px;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.logocenter {
+.logo-center {
   margin: 0 auto;
 }
 
-.logotitle > h4 {
+.logo-title > h4 {
   background-color: #8b745b;
   height: 45px;
   width: 205px;
@@ -265,7 +267,7 @@ hr {
   line-height: 37px;
 }
 
-.clientlogos {
+.client-logos {
   padding-top: 20px;
 }
 
@@ -273,7 +275,7 @@ hr {
   cursor: pointer;
 }
 
-.logosep {
+.logo-sep {
   color: #929497;
   font-weight: 400;
   font-size: 15px;
@@ -282,10 +284,33 @@ hr {
 }
 
 .copyright {
-  padding-top: 40px;
+  background-color: #555657;
+  padding: 25px;
   border-top: 2px #535354 solid;
   text-align: center;
   line-height: 10px; 
+}
+
+.footer-title {
+  cursor: pointer;
+  width: 226px;
+  margin: 0 auto;
+  color: #e6e7e8;
+  font-weight: 400;
+  font-size: 16px;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.footer-title:hover {
+  text-decoration: underline;
+}
+
+.footer-sep {
+  background-color: #a7a9ac;
+  width: 20px;
+  height: 2px;
 }
 
 /* END FOOTER */
@@ -302,14 +327,20 @@ hr {
   line-height: 1.9em;
 }
 
+.modal-dialog {
+  margin-top: 150px;
+}
+
 .modal-header {
   border-bottom: 1px #bbbdbf solid;
+  padding-left: 40px;
 }
 
 .modal-title {
   color: #00beca;
   font-weight: 600;
   font-size: 24px;
+  padding-top: 7px;
 }
 
 .modal-subtitle {
@@ -328,16 +359,23 @@ hr {
 }
 
 .modal-header .close {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 400;
   color: #bbbdbf;
   opacity: 1;
+}
+
+button.close {
+  padding: 5px 10px;
 }
 
 /* END MODAL */
 
 a {
 	color: #6d6e70;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 a:hover {
