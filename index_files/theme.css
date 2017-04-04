@@ -67,6 +67,20 @@ hr {
 
 /* HEADER */
 
+.ttalogo > a > img {
+  height: 42px
+}
+
+.ttalogo > a > span {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.ttalogo > a:hover {
+  text-decoration: none;
+}
+
 .dlhead {
   background-color: #f8f8f8;
   border-bottom: 1px #bbbdbf solid;
