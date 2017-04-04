@@ -433,6 +433,10 @@ button.close {
   display: none;
 }
 
+#mobileBigPill {
+    display: none;
+  }
+
 /* END MODAL */
 
 /* BEGIN MEDIA QUERIES */
@@ -575,6 +579,14 @@ button.close {
   }
 
   #desktopFeature {
+    display: none;
+  }
+
+  #mobileBigPill {
+    display: block;
+  }
+
+  #desktopBigPill {
     display: none;
   }
 }
