@@ -419,6 +419,10 @@ button.close {
   padding: 5px 10px;
 }
 
+#mobileIOT {
+  display: none;
+}
+
 /* END MODAL */
 
 /* BEGIN MEDIA QUERIES */
@@ -486,6 +490,14 @@ button.close {
   }
 
   .line {
+    display: none;
+  }
+
+  #mobileIOT {
+    display: block;
+  }
+
+  #desktopIOT {
     display: none;
   }
 }
