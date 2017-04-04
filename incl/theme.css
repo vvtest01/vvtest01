@@ -467,12 +467,18 @@ button.close {
     padding-bottom: 20px;
   }
 
+  .pill-separation {
+    margin-bottom: 0;
+  }
+
   .pill-separation-right {
     padding-top: 0;
+    margin-bottom: 0;
   }
 
   .pill, .pill-big {
     width: 100%;
+    margin: 10px 0;
   }
 
   .mobile-img {
@@ -487,6 +493,19 @@ button.close {
     text-align: center;
     height: auto;
     padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+
+  .logo-sep {
+    display: none;
+  }
+
+  .modal-img {
+    margin-right: 10px;
+  }
+
+  .copyright {
+    border: none;
   }
 
   .line {
