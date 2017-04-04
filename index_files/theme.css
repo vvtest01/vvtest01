@@ -75,6 +75,7 @@ hr {
   color: #333;
   font-weight: 600;
   font-size: 16px;
+  vertical-align: middle;
 }
 
 .ttalogo > a:hover {
