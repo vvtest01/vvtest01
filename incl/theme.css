@@ -553,8 +553,16 @@ button.close {
     display: none;
   }
 
+  .pills-left {
+    padding: 0;
+  }
+
+  .pills {
+    padding: 0;
+  }
+
   .pill-title {
-    font-size: 1em;
+    font-size: 0.8em;
     padding-right: 10px;
   }
 
