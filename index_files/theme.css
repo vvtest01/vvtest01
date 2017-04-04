@@ -50,11 +50,27 @@ p {
   font-size: 17px;
 }
 
+a {
+  color: #6d6e70;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+a:hover {
+  color: #0739a9;
+  text-decoration: underline;
+}
+
 hr {
   background: #d2b390;
   height: 1px;
   width: 340px;
   border: 0;
+}
+
+.btn:focus {
+  color: #fff;
 }
 
 .strong {
@@ -405,29 +421,68 @@ button.close {
 
 /* END MODAL */
 
-a {
-	color: #6d6e70;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
+/* BEGIN MEDIA QUERIES */
 
-a:hover {
-	color: #0739a9;
-	text-decoration: underline;
-}
+@media screen and (max-width: 768px) {
 
-.tooltip > .tooltip-inner {
-  width: 150px;
-      background-color: rgba(0,0,0,0.8); 
-      color: #FFFFFF; 
-      padding: 15px;
-      font-size: 15px;
-      margin-bottom: 50px;
-      box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+  hr {
+    width: auto;
   }
 
-.tooltip-arrow {
-      display: none;
+  #download, .widthfix {
+    width: auto;
   }
-  
+
+  #download {
+    text-align: center;
+  }
+
+  .dlbtn {
+    float: none;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  .title-logo {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .feature-title {
+    padding: 0;
+    text-align: center;
+  }
+
+  .mobile-part {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .pill-separation-right {
+    padding-top: 0;
+  }
+
+  .pill, .pill-big {
+    margin: 0 auto;
+  }
+
+  .mobile-img {
+    width: 50%;
+  }
+
+  .house-img {
+    width: 100%;
+  }
+
+  .logo-part {
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+}
