@@ -424,6 +424,9 @@ button.close {
 /* BEGIN MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
 
   hr {
     width: auto;
@@ -465,7 +468,7 @@ button.close {
   }
 
   .pill, .pill-big {
-    margin: 0 auto;
+    width: 100%;
   }
 
   .mobile-img {
