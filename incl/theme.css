@@ -52,8 +52,10 @@ p {
 
 a {
   color: #6d6e70;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
   transition: all 0.6s ease;
 }
 
@@ -121,8 +123,10 @@ hr {
 
 .dlbtn > .btn {
   background-color: #3fced1;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
   transition: all 0.6s ease;
 } 
 
@@ -171,15 +175,19 @@ hr {
 .pill {
   width: 294px;
   height: 63px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
+  -webkit-border-radius: 50px; /* Safari and Chrome */
+  -moz-border-radius: 50px; /* Firefox */
+  -ms-border-radius: 50px; /* IE 9 */
+  -o-border-radius: 50px; /* Opera */
   border-radius: 50px;
   border: 1px #d0d2d3 solid;
   background-color: #fff;
   padding: 2px 0 0 2px;
   margin-bottom: 5px;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
   transition: all 0.6s ease;
 }
 
@@ -192,6 +200,14 @@ hr {
   border-color: #10bcc7;
 }
 
+.mint p {
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
+  transition: all 0.6s ease;
+}
+
 .mint:hover p {
   color: #fff;
 }
@@ -201,6 +217,14 @@ hr {
   border-color: #226bb4;
 }
 
+.blue p {
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
+  transition: all 0.6s ease;
+}
+
 .blue:hover p {
   color: #fff;
 }
@@ -208,15 +232,19 @@ hr {
 .pill-big {
   width: 294px;
   min-height: 180px;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
+  -webkit-border-radius: 30px; /* Safari and Chrome */
+  -moz-border-radius: 30px; /* Firefox */
+  -ms-border-radius: 30px; /* IE 9 */
+  -o-border-radius: 30px; /* Opera */
   border-radius: 30px;
   border: 1px #d0d2d3 solid;
   background-color: #fff;
   padding: 2px 0 0 2px;
   margin-bottom: 5px;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
   transition: all 0.6s ease;
 }
 
@@ -308,13 +336,20 @@ hr {
 
 .modal-img {
   cursor: pointer;
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox */
+  -ms-transition: all 0.3s ease; /* IE 9 */
+  -o-transition: all 0.3s ease; /* Opera */
   transition: all 0.3s ease;
 }
 
 .modal-img:hover {
   opacity: 1 !important;
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+  transform:scale(1.1);
 }
 
 .logo-sep {
@@ -340,8 +375,10 @@ hr {
   color: #e6e7e8;
   font-weight: 400;
   font-size: 16px;
-  -moz-transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease; /* Firefox */
+  -ms-transition: all 0.6s ease; /* IE 9 */
+  -o-transition: all 0.6s ease; /* Opera */
   transition: all 0.6s ease;
 }
 
@@ -521,8 +558,10 @@ button.close {
 
   .pill-big {
     min-height: auto;
-    -moz-border-radius: 50px;
-   -webkit-border-radius: 50px;
+    -webkit-border-radius: 50px; /* Safari and Chrome */
+    -moz-border-radius: 50px; /* Firefox */
+    -ms-border-radius: 50px; /* IE 9 */
+    -o-border-radius: 50px; /* Opera */
     border-radius: 50px;
     padding: 2px 0 0 2px;
   }
