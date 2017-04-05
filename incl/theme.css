@@ -437,6 +437,10 @@ button.close {
     display: none;
   }
 
+  #mobileButton {
+    display: none;
+  }
+
 /* END MODAL */
 
 /* BEGIN MEDIA QUERIES */
@@ -595,6 +599,16 @@ button.close {
   }
 
   #desktopBigPill {
+    display: none;
+  }
+
+  #mobileButton {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #desktopButton {
     display: none;
   }
 }
