@@ -252,15 +252,20 @@ hr {
   cursor: pointer;
 }
 
-.pill-content {
+.pill-image {
   float: left;
   margin-right: 5px;
 }
 
-.pill-content-big {
+.pill-image-big {
   height: 175px;
   float: left;
   margin-right: 5px;
+}
+
+.pill-content {
+  height: 54px;
+  align-items: center;
 }
 
 .pill-title {
@@ -550,30 +555,6 @@ button.close {
     margin-bottom: 20px;
   }
 
-  .pill, .pill-big {
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .pill-big {
-    min-height: auto;
-    -webkit-border-radius: 50px; /* Safari and Chrome */
-    -moz-border-radius: 50px; /* Firefox */
-    -ms-border-radius: 50px; /* IE 9 */
-    -o-border-radius: 50px; /* Opera */
-    border-radius: 50px;
-    padding: 2px 0 0 2px;
-  }
-
-  .pill-big > div > .pill-title {
-    margin-bottom: 0 !important;
-  }
-
-  .pill-content-big {
-    height: auto;
-  }
-
   .mobile-img {
     width: 50%;
   }
@@ -617,12 +598,39 @@ button.close {
     padding: 0;
   }
 
+  .pill, .pill-big {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .pill-big {
+    min-height: auto;
+    -webkit-border-radius: 50px; /* Safari and Chrome */
+    -moz-border-radius: 50px; /* Firefox */
+    -ms-border-radius: 50px; /* IE 9 */
+    -o-border-radius: 50px; /* Opera */
+    border-radius: 50px;
+    padding: 2px 0 0 2px;
+  }
+
+  .pill-big > div > .pill-title {
+    margin-bottom: 0 !important;
+  }
+
+  .pill-content {
+    display: flex;
+  }
+
+  .pill-image-big {
+    height: auto;
+  }
+
   .pill-title {
     font-size: 1em;
     padding-right: 10px;
     display: block;
     float: left;
-    width: 50%;
   }
 
   .pill-title > span {
