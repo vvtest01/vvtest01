@@ -516,6 +516,7 @@ button.close {
   .pill, .pill-big {
     width: 100%;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .pill-big {
