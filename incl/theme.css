@@ -133,7 +133,7 @@ hr {
 
 .dlbtntext {
   font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   float: left;
 }
 
@@ -249,14 +249,6 @@ hr {
   margin: 0;
 }
 
-.pills-left {
-  text-align: left;
-}
-
-.pills-right {
-  text-align: right;
-}
-
 .pill-separation {
   margin-bottom: 20px;
 }
@@ -310,8 +302,19 @@ hr {
   padding-top: 20px;
 }
 
+.client-logos > div:hover > img {
+  opacity: 0.5;
+}
+
 .modal-img {
   cursor: pointer;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.modal-img:hover {
+  opacity: 1 !important;
 }
 
 .logo-sep {
@@ -398,6 +401,10 @@ hr {
   padding-top: 7px;
 }
 
+.standard-title {
+  color: #226bb4;
+}
+
 .modal-subtitle {
   color: #404041;
   font-weight: 600;
@@ -470,6 +477,10 @@ button.close {
     text-align: center;
   }
 
+  .ttalogo > a > span {
+    font-size: 14px;
+  }
+
   .dlbtn {
     float: none;
   }
@@ -504,6 +515,7 @@ button.close {
 
   .pill, .pill-big {
     width: 100%;
+    display: inline-block;
   }
 
   .pill-big {
@@ -561,13 +573,16 @@ button.close {
     padding: 0;
   }
 
-  .pills {
+  .pills-right {
     padding: 0;
   }
 
   .pill-title {
     font-size: 1em;
     padding-right: 10px;
+    display: block;
+    float: left;
+    width: 50%;
   }
 
   .pill-title > span {
