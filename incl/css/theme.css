@@ -580,7 +580,7 @@ button.close {
   .logo-part {
     text-align: center;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 22px;
     margin-bottom: 0;
   }
 
@@ -669,18 +669,19 @@ button.close {
   }
 
   .client-logos {
-    padding-top: 0;
+    padding-top: 17px;
   }
 
   #mobile-btn-sep {
     display: block;
     background-color: #e8e8e8;
     height: 2px;
-    width: 85%;
+    width: 90%;
+    margin-bottom: 8px;
   }
 
   .dlbtn > .btn {
-    min-width: 55%;
+    min-width: 65%;
     height: 55px;
   }
 
