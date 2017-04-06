@@ -87,7 +87,7 @@ hr {
 /* HEADER */
 
 .ttalogo > a > img {
-  height: 35px;
+  height: 32px;
 }
 
 .ttalogo > a > span {
@@ -144,7 +144,7 @@ hr {
 
 /* END HEADER */
 
-/* MOBILE */
+/* MOBILE SECTION */
 
 .main-logo {
   text-align: center;
@@ -471,6 +471,8 @@ hr {
   opacity: 1;
 }
 
+/* END MODAL */
+
 button.close {
   padding: 5px 10px;
 }
@@ -512,7 +514,67 @@ button.close {
   display: none;
 }
 
-/* END MODAL */
+/* ANIMATIONS */
+
+#pillWifi {
+  animation-delay: 0.1s;
+}
+
+#pillVoLTE {
+  animation-delay: 0.2s;
+}
+
+#pillTelephone {
+  animation-delay: 0.3s;
+}
+
+#pillNFC {
+  animation-delay: 0.4s;
+}
+
+#pillZigbee {
+  animation-delay: 0.5s;
+}
+
+#pillBluetooth {
+  animation-delay: 0.6s;
+}
+
+#pillNBIOT {
+  animation-delay: 0.7s;
+}
+
+#pillLoRaDesktop {
+  animation-delay: 0.8s;
+}
+
+#titleAni {
+  animation-duration: 2s;
+}
+
+#pillWeb {
+  animation-delay: 0.1s;
+}
+
+#pillVideo {
+  animation-delay: 0.2s;
+}
+
+#pillVoice {
+  animation-delay: 0.3s;
+}
+
+#pillPay {
+  animation-delay: 0.4s;
+}
+
+#pillIOTDesktop {
+  animation-delay: 0.5s;
+}
+
+#pillCloud {
+  animation-delay: 0.6s;
+}
 
 /* BEGIN MEDIA QUERIES */
 
@@ -770,4 +832,27 @@ button.close {
   #pillIOTDesktop {
     display: none;
   }
+
+/* TURN OFF ANIMATIONS ON MOBILE */
+
+  .animated {
+      /*CSS transitions*/
+      -o-transition-property: none !important;
+      -moz-transition-property: none !important;
+      -ms-transition-property: none !important;
+      -webkit-transition-property: none !important;
+      transition-property: none !important;
+      /*CSS transforms*/
+      -o-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -webkit-transform: none !important;
+      transform: none !important;
+      /*CSS animations*/
+      -webkit-animation: none !important;
+      -moz-animation: none !important;
+      -o-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important;
+    }
 }

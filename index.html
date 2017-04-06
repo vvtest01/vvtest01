@@ -40,7 +40,6 @@
     <script src="./incl/js/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./incl/js/bootstrap.min.js"></script>
-    <script src="./incl/js/wow.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <script src="./incl/js/theme.js"></script>
 
@@ -1025,7 +1024,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
           <h1>사물 인터넷 서비스</h1>
           <h3>(<span class="strong">IoT</span> : <span class="strong">I</span>nternet <span class="strong">o</span>f <span class="strong">T</span>hings)</h3>
         </div>
-        <div class="wow fadeInUp">
+        <div>
           <p>인터넷으로 사물은 물론, 현실과 가상 세계의<br>
           모든 정보와 상호 작용하는 개념</p>
         </div>
@@ -1047,7 +1046,8 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
           </div>
 
           <div class="pill-separation">
-            <div class="pill mint wow fadeInLeft" type="button" data-toggle="modal" data-target="#wcdma" aria-hidden="true">
+
+            <div id="pillWCDMA" class="pill mint animated fadeInLeft" type="button" data-toggle="modal" data-target="#wcdma" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/wcdma.png">
@@ -1060,7 +1060,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
               </div>
             </div>
 
-            <div class="pill mint wow fadeInLeft" data-wow-delay="0.1s" type="button" data-toggle="modal" data-target="#wifi" aria-hidden="true">
+            <div id="pillWifi" class="pill mint animated fadeInLeft" type="button" data-toggle="modal" data-target="#wifi" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/wifi.png">
@@ -1074,7 +1074,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill mint wow fadeInLeft" data-wow-delay="0.2s" type="button" data-toggle="modal" data-target="#volte" aria-hidden="true">
+            <div id="pillVoLTE" class="pill mint animated fadeInLeft" type="button" data-toggle="modal" data-target="#volte" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/volte.png">
@@ -1088,7 +1088,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill mint wow fadeInLeft" data-wow-delay="0.3s" type="button" data-toggle="modal" data-target="#calling" aria-hidden="true">
+            <div id="pillTelephone" class="pill mint animated fadeInLeft" type="button" data-toggle="modal" data-target="#calling" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/telephone.png">
@@ -1106,7 +1106,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
           <div>
 
-            <div class="pill blue wow fadeInLeft" data-wow-delay="0.5s" data-wow-offset="-100" type="button" data-toggle="modal" data-target="#nfc" aria-hidden="true">
+            <div id="pillNFC" class="pill blue animated fadeInLeft" type="button" data-toggle="modal" data-target="#nfc" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/nfc.png">
@@ -1120,7 +1120,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill blue wow fadeInLeft" id="pillZigbee" data-wow-delay="0.6s" data-wow-offset="-100" type="button" data-toggle="modal" data-target="#zigbee" aria-hidden="true">
+            <div class="pill blue animated fadeInLeft" id="pillZigbee" type="button" data-toggle="modal" data-target="#zigbee" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/zigbee.png">
@@ -1134,7 +1134,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill blue wow fadeInLeft" id="pillBluetoothDesktop" data-wow-delay="0.7s" data-wow-offset="-100" type="button" data-toggle="modal" data-target="#bluetooth" aria-hidden="true">
+            <div id="pillBluetooth" class="pill blue animated fadeInLeft" id="pillBluetoothDesktop" type="button" data-toggle="modal" data-target="#bluetooth" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/bluetooth.png">
@@ -1148,7 +1148,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill blue wow fadeInLeft" data-wow-delay="0.8s" data-wow-offset="-150" type="button" data-toggle="modal" data-target="#nbiot" aria-hidden="true">
+            <div id="pillNBIOT" class="pill blue animated fadeInLeft" type="button" data-toggle="modal" data-target="#nbiot" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/nbiot.png">
@@ -1161,7 +1161,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill blue wow fadeInLeft" id="pillLoRaDesktop" data-wow-delay="0.9s" data-wow-offset="-200" type="button" data-toggle="modal" data-target="#lora" aria-hidden="true">
+            <div class="pill blue animated fadeInLeft" id="pillLoRaDesktop" type="button" data-toggle="modal" data-target="#lora" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/lora.png">
@@ -1175,7 +1175,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
             </div>
 
             <div id="mobileBigPill">
-            <div class="pill blue" data-wow-delay="0.5s" data-wow-offset="50" type="button" data-toggle="modal" data-target="#iotdata" aria-hidden="true">
+            <div class="pill blue" type="button" data-toggle="modal" data-target="#iotdata" aria-hidden="true">
               <div class="pill-image">
               <img src="./img/iot.png">
               </div>
@@ -1191,11 +1191,11 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
         <div class="col-xs-12 col-sm-4 col-md-4 iotdiv" id="desktopIOT">
 
-      <div class="main-title wow fadeIn" data-wow-duration="2s">
+      <div id="titleAni" class="main-title animated fadeIn" data-wow-duration="2s">
           <h1>사물 인터넷 서비스</h1>
           <h3>(<span class="strong">IoT</span> : <span class="strong">I</span>nternet <span class="strong">o</span>f <span class="strong">T</span>hings)</h3>
         </div>
-        <div class="wow fadeInUp">
+        <div class="animated fadeInUp">
           <p>인터넷으로 사물은 물론, 현실과 가상 세계의<br>
           모든 정보와 상호 작용하는 개념</p>
         </div>
@@ -1210,7 +1210,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
           <div class="pill-separation-right">
 
-            <div class="pill mint wow fadeInRight" data-wow-delay="0.1s" type="button" data-toggle="modal" data-target="#mobileweb" aria-hidden="true">
+            <div id="pillWeb" class="pill mint animated fadeInRight" type="button" data-toggle="modal" data-target="#mobileweb" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/mobileweb.png">
@@ -1224,7 +1224,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill mint wow fadeInRight" data-wow-delay="0.2s" type="button" data-toggle="modal" data-target="#video" aria-hidden="true">
+            <div id="pillVideo" class="pill mint animated fadeInRight" type="button" data-toggle="modal" data-target="#video" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/video.png">
@@ -1238,7 +1238,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill mint wow fadeInRight" data-wow-delay="0.3s" type="button" data-toggle="modal" data-target="#voice" aria-hidden="true">
+            <div id="pillVoice" class="pill mint animated fadeInRight" type="button" data-toggle="modal" data-target="#voice" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/voice.png">
@@ -1252,7 +1252,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill mint wow fadeInRight" data-wow-delay="0.4s" type="button" data-toggle="modal" data-target="#mobilepay
+            <div id="pillPay" class="pill mint animated fadeInRight" type="button" data-toggle="modal" data-target="#mobilepay
             " aria-hidden="true">
 
               <div class="pill-image">
@@ -1271,7 +1271,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
           <div>
 
-            <div class="pill blue" id="pillBluetoothMobile" data-wow-delay="0.7s" data-wow-offset="-100" type="button" data-toggle="modal" data-target="#bluetooth" aria-hidden="true">
+            <div class="pill blue" id="pillBluetoothMobile" type="button" data-toggle="modal" data-target="#bluetooth" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/bluetooth.png">
@@ -1285,7 +1285,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
 
             </div>
 
-            <div class="pill blue wow" id="pillLoRaMobile" data-wow-delay="0.9s" data-wow-offset="-200" type="button" data-toggle="modal" data-target="#lora" aria-hidden="true">
+            <div class="pill blue" id="pillLoRaMobile" type="button" data-toggle="modal" data-target="#lora" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/lora.png">
@@ -1299,7 +1299,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
             </div>
             
             <div id="desktopBigPill">
-            <div class="pill-big blue wow fadeInRight" id="pillIOTDesktop" data-wow-delay="0.5s" data-wow-offset="50" type="button" data-toggle="modal" data-target="#iotdata" aria-hidden="true">
+            <div class="pill-big blue animated fadeInRight" id="pillIOTDesktop" type="button" data-toggle="modal" data-target="#iotdata" aria-hidden="true">
               <div class="pill-image-big">
               <img src="./img/iot.png">
               </div>
@@ -1318,7 +1318,7 @@ P2413은 IoT 아키텍처 프레임워크, 참조 모델 등에 중점을 두고
             </div>
             </div>
 
-            <div class="pill blue wow fadeInRight" data-wow-delay="0.6s" data-wow-offset="-100" type="button" data-toggle="modal" data-target="#cloud" aria-hidden="true">
+            <div id="pillCloud" class="pill blue animated fadeInRight"  type="button" data-toggle="modal" data-target="#cloud" aria-hidden="true">
 
               <div class="pill-image">
                 <img src="./img/cloud.png">
