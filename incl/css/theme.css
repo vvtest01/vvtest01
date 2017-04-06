@@ -621,8 +621,12 @@ button.close {
     border: 0;
   }
 
+  .dlhead {
+    height: 54px;
+  }
+
   .ttalogo {
-    padding-top: 2px;
+    margin-top: -8px;
   }
 
   .ttalogo > a > span {
@@ -644,7 +648,7 @@ button.close {
   }
 
   .ttalogo > a > img {
-    height: 30px;
+    height: 24px;
     margin-top: -1px;
   }
 
