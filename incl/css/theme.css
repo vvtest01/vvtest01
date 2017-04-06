@@ -479,7 +479,12 @@ button.close {
 }
 
 #mobileFeature {
-  display: none;
+  display: none
+}
+
+#mobileFeature h2 {
+  font-size: 23px;
+  margin-bottom: 17px;
 }
 
 #mobileBigPill {
@@ -487,6 +492,10 @@ button.close {
   }
 
   #mobileButton {
+    display: none;
+  }
+
+  #mobile-btn-sep {
     display: none;
   }
 
@@ -534,6 +543,7 @@ button.close {
   .title-logo {
     width: 100%;
     padding: 0 15px;
+    margin-left: 14px;
   }
 
   .ttalogo > a > img {
@@ -570,7 +580,7 @@ button.close {
   .logo-part {
     text-align: center;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-bottom: 0;
   }
 
@@ -644,6 +654,38 @@ button.close {
 
   .pill-desc {
     display: none;
+  }
+
+  .logo-title {
+    background-color: #8b745b;
+    height: 34px;
+  }
+
+  .logo-title > h4 {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -3px;
+  }
+
+  .client-logos {
+    padding-top: 0;
+  }
+
+  #mobile-btn-sep {
+    display: block;
+    background-color: #e8e8e8;
+    height: 2px;
+    width: 85%;
+  }
+
+  .dlbtn > .btn {
+    min-width: 55%;
+    height: 55px;
+  }
+
+  .dlbtntext {
+    float: inherit;
   }
 
   #mobileIOT {
