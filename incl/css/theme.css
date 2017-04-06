@@ -516,64 +516,76 @@ button.close {
 
 /* ANIMATIONS */
 
-#pillWifi {
+#pillWifi, #pillWeb {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-#pillVoLTE {
+#pillVoLTE, #pillVideo {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-#pillTelephone {
+#pillTelephone, #pillVoice {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
-#pillNFC {
+#pillNFC, #pillPay {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -ms-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-#pillZigbee {
+#pillZigbee, #pillIOTDesktop {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
-#pillBluetooth {
+#pillBluetooth, #pillCloud {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
 #pillNBIOT {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
 #pillLoRaDesktop {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
 #titleAni {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
   animation-duration: 2s;
-}
-
-#pillWeb {
-  animation-delay: 0.1s;
-}
-
-#pillVideo {
-  animation-delay: 0.2s;
-}
-
-#pillVoice {
-  animation-delay: 0.3s;
-}
-
-#pillPay {
-  animation-delay: 0.4s;
-}
-
-#pillIOTDesktop {
-  animation-delay: 0.5s;
-}
-
-#pillCloud {
-  animation-delay: 0.6s;
 }
 
 /* BEGIN MEDIA QUERIES */
