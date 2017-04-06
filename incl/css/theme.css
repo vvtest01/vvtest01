@@ -687,6 +687,7 @@ button.close {
 
   .dlbtntext {
     float: inherit;
+    font-size: 19px;
   }
 
   #mobileIOT {
