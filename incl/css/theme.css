@@ -510,6 +510,7 @@ button.close {
 
   h1 {
     font-size: 26px;
+    margin-bottom: 7px;
   }
 
   h3 {
@@ -526,6 +527,11 @@ button.close {
 
   #download {
     text-align: center;
+  }
+
+  .main-title {
+    margin: 26px 0 13px;
+    border: 0;
   }
 
   .ttalogo {
@@ -667,7 +673,7 @@ button.close {
 
   .logo-title > h4 {
     background-color: transparent;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     margin-top: -3px;
   }
@@ -679,8 +685,7 @@ button.close {
   #mobile-btn-sep {
     display: block;
     background-color: #e8e8e8;
-    height: 2px;
-    width: 90%;
+    height: 1px;
     margin-bottom: 8px;
   }
 
