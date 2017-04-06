@@ -528,6 +528,10 @@ button.close {
     text-align: center;
   }
 
+  .ttalogo {
+    padding-top: 2px;
+  }
+
   .ttalogo > a > span {
     font-size: 14px;
   }
