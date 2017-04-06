@@ -488,16 +488,28 @@ button.close {
 }
 
 #mobileBigPill {
-    display: none;
-  }
+  display: none;
+}
 
-  #mobileButton {
-    display: none;
-  }
+#pillBluetoothMobile {
+  display: none;
+}
 
-  #mobile-btn-sep {
-    display: none;
-  }
+#pillLoRaMobile {
+  display: none;
+}
+
+#mobileBigPill {
+  display: none;
+}
+
+#mobileButton {
+  display: none;
+}
+
+#mobile-btn-sep {
+  display: none;
+}
 
 /* END MODAL */
 
@@ -557,7 +569,7 @@ button.close {
   }
 
   .ttalogo > a > img {
-    height: 24px;
+    height: 30px;
     margin-top: -1px;
   }
 
@@ -731,6 +743,30 @@ button.close {
   }
 
   #desktopButton {
+    display: none;
+  }
+
+  #pillZigbee {
+    display: none;
+  }
+
+  #pillBluetoothMobile {
+    display: block;
+  }
+
+  #pillBluetoothDesktop {
+    display: none;
+  }
+
+  #pillLoRaMobile {
+    display: block;
+  }
+
+  #pillLoRaDesktop {
+    display: none;
+  }
+
+  #pillIOTDesktop {
     display: none;
   }
 }
