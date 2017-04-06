@@ -558,6 +558,7 @@ button.close {
 
   .ttalogo > a > img {
     height: 24px;
+    margin-top: -1px;
   }
 
   .feature-title {
