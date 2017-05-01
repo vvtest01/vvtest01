@@ -3,7 +3,7 @@ var HOME_PATH = window.HOME_PATH || '.';
 var gangnam = new naver.maps.LatLng(37.517744, 127.047369),
     map = new naver.maps.Map('map', {
         center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
-        zoom: 8, //지도의 초기 줌 레벨
+        zoom: 2, //지도의 초기 줌 레벨
         minZoom: 1, //지도의 최소 줌 레벨
         zoomControl: true, //줌 컨트롤의 표시 여부
         zoomControlOptions: { //줌 컨트롤의 옵션
@@ -28,9 +28,9 @@ var infowindow = new naver.maps.InfoWindow({
 
 naver.maps.Event.addListener(marker, "click", function(e) {
     if (infowindow.getMap()) {
-        infowindow.close();
+        infowindow.open();
     } else {
-        infowindow.open(map, marker);
+        infowindow.close(map, marker);
     }
 });
 
