@@ -1,3 +1,5 @@
+var HOME_PATH = window.HOME_PATH || '.';
+
 //지도 생성시에 옵션을 지정할 수 있습니다.
 var gangnam = new naver.maps.LatLng(37.517744, 127.047369),
 var map = new naver.maps.Map('map', {
