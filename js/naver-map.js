@@ -1,33 +1,25 @@
 var HOME_PATH = window.HOME_PATH || '.';
 
-//지도 생성시에 옵션을 지정할 수 있습니다.
-var gangnam = new naver.maps.LatLng(37.517744, 127.047369),
-var map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
-        zoom: 2, //지도의 초기 줌 레벨
-        minZoom: 1, //지도의 최소 줌 레벨
-        zoomControl: true, //줌 컨트롤의 표시 여부
-        zoomControlOptions: { //줌 컨트롤의 옵션
-            position: naver.maps.Position.TOP_RIGHT
-        }
+var cityhall = new naver.maps.LatLng(37.5666805, 126.9784147),
+    map = new naver.maps.Map('map', {
+        center: cityhall.destinationPoint(0, 500),
+        zoom: 10
     }),
     marker = new naver.maps.Marker({
         map: map,
-        position: gangnam
+        position: cityhall
     });
 
 var contentString = [
-    '<div class="iw_inner">',
-    '   <h3>강남구</h3>',
-    '       서울 강남구 학동로 426 강남구청 별관 1동',
-    '   </p>',
-    '</div>'
-].join('');
-
-var marker = new naver.maps.Marker({
-    map: map,
-    position: gangnam
-});
+        '<div class="iw_inner">',
+        '   <h3>서울특별시청</h3>',
+        '   <p>서울특별시 중구 태평로1가 31 | 서울특별시 중구 세종대로 110 서울특별시청<br />',
+        '       <img src="'+ HOME_PATH +'/img/example/hi-seoul.jpg" width="55" height="55" alt="서울시청" class="thumb" /><br />',
+        '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
+        '       <a href="http://www.seoul.go.kr" target="_blank">www.seoul.go.kr/</a>',
+        '   </p>',
+        '</div>'
+    ].join('');
 
 var infowindow = new naver.maps.InfoWindow({
     content: contentString
@@ -40,6 +32,8 @@ naver.maps.Event.addListener(marker, "click", function(e) {
         infowindow.open(map, marker);
     }
 });
+
+infowindow.open(map, marker);
 
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
