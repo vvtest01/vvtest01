@@ -7,6 +7,7 @@ var map = new naver.maps.Map('map', {
         zoomControlOptions: { //줌 컨트롤의 옵션
             position: naver.maps.Position.TOP_RIGHT
         }
+        mapTypeId: naver.maps.MapTypeId.SATTELITE
     });
 
 //setOptions 메서드를 통해 옵션을 조정할 수도 있습니다.
