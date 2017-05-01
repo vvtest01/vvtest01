@@ -1,7 +1,5 @@
 var HOME_PATH = window.HOME_PATH || '.';
 
-var gangnam = new naver.maps.LatLng(37.517744, 127.047369),
-var gangnamdae = new naver.maps.LatLng(37.482103, 127.036503),
     map = new naver.maps.Map('map', {
         center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
         zoom: 2, //지도의 초기 줌 레벨
@@ -11,12 +9,13 @@ var gangnamdae = new naver.maps.LatLng(37.482103, 127.036503),
             position: naver.maps.Position.TOP_RIGHT,
             style: naver.maps.ZoomControlStyle.SMALL
         }
-    }),
-    marker = new naver.maps.Marker({
-        map: map,
-        position: gangnam,
-        position: gangnamdae
     });
+
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.517744, 127.047369),
+    position: new naver.maps.LatLng(37.482103, 127.036503),
+    map: map
+});
 
 var contentString = [
         '<div class="iw_inner">',
