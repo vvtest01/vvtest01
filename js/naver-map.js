@@ -1,3 +1,5 @@
+var gangnam = new naver.maps.LatLng(37.517744, 127.047369);
+
 //지도 생성시에 옵션을 지정할 수 있습니다.
 var map = new naver.maps.Map('map', {
         center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
@@ -8,8 +10,6 @@ var map = new naver.maps.Map('map', {
             position: naver.maps.Position.TOP_RIGHT
         }
     });
-
-var gangnam = new naver.maps.LatLng(37.517744, 127.047369);
 
 var contentString = [
     '<div class="iw_inner">',
