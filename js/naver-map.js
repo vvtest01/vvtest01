@@ -11,13 +11,21 @@ var HOME_PATH = window.HOME_PATH || '.';
         }
     });
 
-var marker = new naver.maps.Marker({
+// 강남구
+var gangnam = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.517744, 127.047369),
     map: map
 });
 
-var marker = new naver.maps.Marker({
+// 강남대로
+var gangnamdaero = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.482103, 127.036503),
+    map: map
+});
+
+// 강동구
+var gangdong = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.545172, 127.136777),
     map: map
 });
 
@@ -40,7 +48,7 @@ naver.maps.Event.addListener(marker, "click", function(e) {
     }
 });
 
-infowindow.open(map, marker);
+infowindow.open(map, gangnam);
 
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
