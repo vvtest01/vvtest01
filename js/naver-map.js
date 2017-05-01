@@ -1,7 +1,7 @@
 //지도 생성시에 옵션을 지정할 수 있습니다.
 var map = new naver.maps.Map('map', {
         center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
-        zoom: 8, //지도의 초기 줌 레벨
+        zoom: 2, //지도의 초기 줌 레벨
         minZoom: 1, //지도의 최소 줌 레벨
         zoomControl: true, //줌 컨트롤의 표시 여부
         zoomControlOptions: { //줌 컨트롤의 옵션
@@ -9,9 +9,27 @@ var map = new naver.maps.Map('map', {
         }
     });
 
+var gangnam = new naver.maps.LatLng(37.517744, 127.047369);
+
+var contentString = [
+    '<div class="iw_inner">',
+    '   <h3>강남구</h3>',
+    '       서울 강남구 학동로 426 강남구청 별관 1동',
+    '   </p>',
+    '</div>'
+].join('');
+
 var marker = new naver.maps.Marker({
-    position: new naver.maps.LatLng(37.3595704, 127.105399),
-    map: map
+    map: map,
+    position: gangnam
+});
+
+naver.maps.Event.addListener(marker, "click", function(e) {
+    if (infowindow.getMap()) {
+        infowindow.close();
+    } else {
+        infowindow.open(map, marker);
+    }
 });
 
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
