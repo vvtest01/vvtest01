@@ -1,4 +1,91 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  	font-family: 'Nanum Gothic', sans-serif;
+  	word-break: keep-all;
+  	overflow-x: hidden;
+}
+
+h1 {
+	margin-top: 210px;
+	color: #fff;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 16px;
+    color: #666666;
+    line-height: 1.66em;
+}
+
+.row {
+	margin-right: 0;
+}
+
 .hero {
 	background: url("../img/banner.jpg");
 	background-position: center center;
+}
+
+.navigation {
+	float: right;
+		margin-top: 10px;
+	margin-right: 25px;
+}
+
+.float-panel {
+	background-color: #eee;
+	width: 150px;
+	border: 1px solid #cacaca;
+}
+
+#bars {
+	padding: 50px 0;
+}
+
+img {
+	margin: 30px 0;
+}
+
+.colourlegend {
+	border-top: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.colourlegend p {
+	width: auto;
+	font-size: 13px;
+	text-align: left;
+	line-height: normal;
+	margin: 0;
+}
+
+.box {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+.box-green {
+	background-color: #96cb3f;
+}
+
+.box-yellow {
+	background-color: #ebc54a;
+}
+
+.box-orange {
+	background-color: #f58d1c;
+}
+
+.box-red {
+	background-color: #e24b40;
 }
