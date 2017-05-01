@@ -11,9 +11,6 @@ var map = new naver.maps.Map('map', {
 
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
-//setOptions 메서드를 통해 옵션을 조정할 수도 있습니다.
-map.setOptions("mapTypeControl", true); //지도 유형 컨트롤의 표시 여부
-
 
 // 지도 인터랙션 옵션
 $("#interaction").on("click", function(e) {
