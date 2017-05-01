@@ -29,27 +29,6 @@ var gangdong = new naver.maps.Marker({
     map: map
 });
 
-var contentString = [
-        '<div class="iw_inner">',
-        '   <h3>강남구</h3>',
-        '   <p>서울 강남구 학동로 426 강남구청 별관 1동<>',
-        '</div>'
-    ].join('');
-
-var infowindow = new naver.maps.InfoWindow({
-    content: contentString
-});
-
-naver.maps.Event.addListener(marker, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
-    } else {
-        infowindow.open(map, marker);
-    }
-});
-
-infowindow.open(map, gangnam);
-
 map.setMapTypeId(naver.maps.MapTypeId.SATELLITE);
 
 
