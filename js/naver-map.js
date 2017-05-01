@@ -1,7 +1,7 @@
 var HOME_PATH = window.HOME_PATH || '.';
 
     map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(37.3595704, 127.105399), //지도의 초기 중심 좌표
+        center: new naver.maps.LatLng(37.517744, 127.047369), //지도의 초기 중심 좌표
         zoom: 6, //지도의 초기 줌 레벨
         minZoom: 1, //지도의 최소 줌 레벨
         zoomControl: true, //줌 컨트롤의 표시 여부
