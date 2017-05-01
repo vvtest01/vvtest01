@@ -50,7 +50,7 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 infowindow.open(map, gangnam);
 
-map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
+map.setMapTypeId(naver.maps.MapTypeId.SATELLITE);
 
 
 // 지도 인터랙션 옵션
