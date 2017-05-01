@@ -13,6 +13,10 @@ var HOME_PATH = window.HOME_PATH || '.';
 
 var marker = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.517744, 127.047369),
+    map: map
+});
+
+var marker = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.482103, 127.036503),
     map: map
 });
