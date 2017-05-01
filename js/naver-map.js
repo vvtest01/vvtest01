@@ -9,6 +9,11 @@ var map = new naver.maps.Map('map', {
         }
     });
 
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.3595704, 127.105399),
+    map: map
+});
+
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 
