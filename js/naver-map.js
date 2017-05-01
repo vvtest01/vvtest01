@@ -24,6 +24,10 @@ var marker = new naver.maps.Marker({
     position: gangnam
 });
 
+var infowindow = new naver.maps.InfoWindow({
+    content: contentString
+});
+
 naver.maps.Event.addListener(marker, "click", function(e) {
     if (infowindow.getMap()) {
         infowindow.close();
