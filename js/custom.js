@@ -1,0 +1,1 @@
+$( ".active" ).after( "<hr>" );
