@@ -76,7 +76,7 @@ p {
 	color: #1bbc9b;
 }
 
-.nav>li>a:hover::after {
+.nav-pills>li>a:hover::after {
 	content: " ";
     border: 1.5px solid #1bbc9b;
     margin-top: 5px;
