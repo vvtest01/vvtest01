@@ -1,26 +1,34 @@
-$(function(){
-      $("#slides").slidesjs({
-      	width: 100,
-      	height: 100,
-      	navigation: {
-      		active: false
-      	},
-      	play: {
-      active: true,
-        // [boolean] Generate the play and stop buttons.
-        // You cannot use your own buttons. Sorry.
-      effect: "fade",
-        // [string] Can be either "slide" or "fade".
-      interval: 2000,
-        // [number] Time spent on each slide in milliseconds.
-      auto: false,
-        // [boolean] Start playing the slideshow on load.
-      swap: true,
-        // [boolean] show/hide stop and play buttons
-      pauseOnHover: false,
-        // [boolean] pause a playing slideshow on hover
-      restartDelay: 2500
-        // [number] restart delay on inactive slideshow
+$('.slides').slick({
+  slidesToShow: 3,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
     }
-      });
-    });
+  ]
+});
+	
+$('.pause').on('click', function() {
+    $('.slides')
+        .slick('slickPause')
+});
+
+$('.play').on('click', function() {
+    $('.slides')
+        .slick('slickPlay')
+});

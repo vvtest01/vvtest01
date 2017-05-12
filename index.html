@@ -21,6 +21,9 @@
     <!-- Custom style -->
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -42,22 +45,7 @@
     </section>
   
   
-    <!-- FLOATING NAVIGATION -->
-    <div class="nav-bg">
-  <div class="navigation">
-    <div class="float-panel" data-top="40">
-        <nav class="navbar navbar-custom" role="navigation">
-          <ul class="nav nav-pills nav-stacked">
-            <li class="navigation-title">Navigate</li>
-            <li class="active"><a data-scroll href="#bars">Section 1</a></li>
-            <li><a data-scroll href="#locations">Section 2</a></li>
-            <li><a data-scroll href="#compare">Section 3</a></li>
-            <li><a data-scroll href="#difference">Section 4</a></li> 
-           </ul>
-        </nav>
-    </div> 
-    </div>
-    </div>
+    
       
       <!-- STATIC NAVIGATION -->
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -93,8 +81,10 @@
       </div>
     </nav>
 
-    <div class="container content-bg">
+    <div class="container">
+      <div class="row">
 
+      <div class="col-md-8 col-md-offset-2 content-bg">
       <section id="bars">
           <div class="container">
             <div class="row">
@@ -110,7 +100,7 @@
 
                   <div class="row colourlegend">
                   <div class="col-md-12 text-center">
-                    <div class="col-md-2 col-md-offset-2">
+                    <div class="col-md-2 col-md-offset-1">
                       <div class="box box-green"></div> <p>0-30 | 좋음</p>
                     </div>
 
@@ -131,18 +121,24 @@
 
                 <img src="./img/17.05.11_pm10-graphs.jpg">
 
-                <div id="slides">
-    <img src="./img/2006_graph.png">
-    <img src="./img/2007_graph.png">
-    <img src="./img/2008_graph.png">
-    <img src="./img/2009_graph.png">
-    <img src="./img/2010_graph.png">
-    <img src="./img/2011_graph.png">
-    <img src="./img/2012_graph.png">
-    <img src="./img/2013_graph.png">
-    <img src="./img/2014_graph.png">
-    <img src="./img/2015_graph.png">
+                <div class="slides">
+    <div><img src="./img/2006_graph.png"></div>
+    <div><img src="./img/2007_graph.png"></div>
+    <div><img src="./img/2008_graph.png"></div>
+    <div><img src="./img/2009_graph.png"></div>
+    <div><img src="./img/2010_graph.png"></div>
+    <div><img src="./img/2011_graph.png"></div>
+    <div><img src="./img/2012_graph.png"></div>
+    <div><img src="./img/2013_graph.png"></div>
+    <div><img src="./img/2014_graph.png"></div>
+    <div><img src="./img/2015_graph.png"></div>
   </div>
+
+  <div class="playpause">
+<span class="glyphicon glyphicon-pause pause"></span>
+
+<span class="glyphicon glyphicon-play play"></span>
+</div>
 
               <p>‘미세먼지 농도가 점점 좋아지고 있다고?’<br />
 지난 10년간 측정된 미세먼지를 분석해보면, 놀랍게도 <span class="highlighted">미세먼지 농도는 점차 완화 중</span>인 것으로 나타났습니다.<br />
@@ -166,7 +162,7 @@
 
             <!-- NAVER MAP -->
             <div id="map" style="width:100%;height:400px;">
-            </div>
+            </div> 
 
             <div class="col-md-12">
             <p>먼저, 측정소에 대해 자세히 살펴볼까요?<br />
@@ -255,9 +251,7 @@
 
               <p>그 결과, 해외에 비해 긍정적으로 예보한 날이 <span class="highlighted">무려 79일</span>이나 많았습니다.</p>
 
-              <div class="text-center">
-                <iframe class="vimeo" src="https://player.vimeo.com/video/193804169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
+              <div class='embed-container'><iframe src='https://player.vimeo.com/video/193804169' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
               <h5>다시 말해, 실제 주의가 필요한 수치임에도 ‘오늘은 초미세먼지 예보가 보통이니깐 안심해도 되겠지?’라고 생각하며 무방비 상태로 먼지에 노출되는 날이 적지 않다는 것입니다.</h5>
 
@@ -274,13 +268,39 @@
 
       </div>
 
+      <div class="col-md-2">
+        <!-- FLOATING NAVIGATION -->
+    <div class="nav-bg">
+  <div class="navigation">
+    <div class="float-panel" data-top="40">
+        <nav class="navbar navbar-custom" role="navigation">
+          <ul class="nav nav-pills nav-stacked">
+            <li class="navigation-title">Navigate</li>
+            <li class="active"><a data-scroll href="#bars">Section 1</a></li>
+            <li><a data-scroll href="#locations">Section 2</a></li>
+            <li><a data-scroll href="#compare">Section 3</a></li>
+            <li><a data-scroll href="#difference">Section 4</a></li> 
+           </ul>
+        </nav>
+    </div> 
+    </div>
+    </div>
+
+    </div>
+
+      </div>
+      </div>
+
+
 
       <footer class="footer">
       <div class="container">
+        <div class="col-md-8 col-md-offset-2">
         <p class="footer-text"><strong>Vice Versa design studio</strong></p>
         <p class="footer-text muted">서울시 강남구 삼성동 10-18 예우빌딩 2층<br />
 Email : designer_myo@v-vdesign.com &nbsp;&nbsp;&nbsp;&nbsp; Phone : 02-545-0982</p>
         <p style="font-size: 12px;">© VICE VERSA DESIGN STUDIO Copyright All Rights Reserved   |  공동대표 : 김묘영, 정다은</p>
+        </div>
       </div>
     </footer>
     
@@ -293,7 +313,7 @@ Email : designer_myo@v-vdesign.com &nbsp;&nbsp;&nbsp;&nbsp; Phone : 02-545-0982<
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
 <script src="js/float-panel.js"></script>
-<script src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
 <script>
     smoothScroll.init({
