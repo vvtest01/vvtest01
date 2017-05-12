@@ -223,6 +223,10 @@ img {
 	font-size: 20px;
 }
 
+.slick-slide img {
+	width: 41px;
+}
+
 .slick-prev:before, .slick-next:before {
 	color: black !important;
 }

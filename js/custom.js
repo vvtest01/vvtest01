@@ -1,5 +1,5 @@
 $('.slides').slick({
-  slidesToShow: 3,
+  slidesToShow: 5,
   arrows: false,
   responsive: [
     {
