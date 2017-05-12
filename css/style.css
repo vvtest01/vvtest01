@@ -322,19 +322,19 @@ img {
 }
 }
 
-@media (max-width: 1270px) {
+@media (min-width: 991px) {
+	.navbar-fixed-top {
+		display: none;
+	}
+}
+
+@media (max-width: 990px) {
 	.navigation {
 		display: none;
 	}
 
 	.navbar-fixed-top {
 		display: block;
-	}
-}
-
-@media (min-width: 1271px) {
-	.navbar-fixed-top {
-		display: none;
 	}
 }
 
