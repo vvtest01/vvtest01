@@ -245,7 +245,7 @@ var gangdong = new naver.maps.Marker({
     map: map
 });
 
-map.setMapTypeId(naver.maps.MapTypeId.SATELLITE);
+map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 
 // 지도 인터랙션 옵션
