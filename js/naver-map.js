@@ -280,7 +280,7 @@ naver.maps.Event.addListener(gangnam, "click", function(e) {
 var gangnamdaeroContent = [
         '<div class="iw_inner">',
         '   <h3>서울특별시청</h3>',
-        '   <p>서울특별시 중구 태평로1가 31 | 서울특별시 중구 세종대로 110 서울특별시청<br />',
+        '   <p>testestetstwest<br />',
         '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
         '       <a href="http://www.seoul.go.kr" target="_blank">www.seoul.go.kr/</a>',
         '   </p>',
