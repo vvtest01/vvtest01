@@ -300,7 +300,7 @@ $("#interaction").on("click", function(e) {
         map.setOptions({ //지도 인터랙션 끄기
             draggable: false,
             pinchZoom: false,
-            scrollWheel: false,
+            scrollWheel: true,
             keyboardShortcuts: false,
             disableDoubleTapZoom: true,
             disableDoubleClickZoom: true,
