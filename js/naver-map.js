@@ -30,222 +30,252 @@ var gangdong = new naver.maps.Marker({
 });
 
 // 강변북로
-var gangdong = new naver.maps.Marker({
+var gangbyeonbok = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.539085, 127.041594),
     map: map
 });
 
 // 강북구
-var gangdong = new naver.maps.Marker({
+var gangbok = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.638132, 127.028808),
     map: map
 });
 
 // 강서구
-var gangdong = new naver.maps.Marker({
+var gangseo = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.544884, 126.835211),
     map: map
 });
 
 // 공항대로
-var gangdong = new naver.maps.Marker({
+var gonghangdaero = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.559971, 126.824807),
     map: map
 });
 
 // 관악구
-var gangdong = new naver.maps.Marker({
+var gwanak = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.488344, 126.926973),
     map: map
 });
 
 // 광진구
-var gangdong = new naver.maps.Marker({
+var gwangjin = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.545342, 127.09324),
     map: map
 });
 
 // 구로구
-var gangdong = new naver.maps.Marker({
+var guro = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.498494, 126.890162),
     map: map
 });
 
 // 금천구
-var gangdong = new naver.maps.Marker({
+var geumcheon = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.452651, 126.908178),
     map: map
 });
 
 // 노원구
-var gangdong = new naver.maps.Marker({
+var nowon = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.659687, 127.068793),
     map: map
 });
 
 // 도봉구
-var gangdong = new naver.maps.Marker({
+var dobong = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.654425, 127.029001),
     map: map
 });
 
 // 도산대로
-var gangdong = new naver.maps.Marker({
+var dosandae = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.51613, 127.020031),
     map: map
 });
 
 // 동대문구
-var gangdong = new naver.maps.Marker({
+var dongdaemun = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.575749, 127.029031),
     map: map
 });
 
 // 동작구
-var gangdong = new naver.maps.Marker({
+var dongjak = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.481172, 126.971622),
     map: map
 });
 
 // 동작대로 중앙차로
-var gangdong = new naver.maps.Marker({
+var dongjagdaero = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.485724, 126.982094),
     map: map
 });
 
 // 마포구
-var gangdong = new naver.maps.Marker({
+var mapo = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.549971, 126.945522),
     map: map
 });
 
 // 서대문구
-var gangdong = new naver.maps.Marker({
+var seodaemun = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.576913, 126.937845),
     map: map
 });
 
 // 서초구
-var gangdong = new naver.maps.Marker({
+var seocho = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.504551, 126.994508),
     map: map
 });
 
 // 성동구
-var gangdong = new naver.maps.Marker({
+var seongdong = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.543065, 127.041096),
     map: map
 });
 
 // 성북구
-var gangdong = new naver.maps.Marker({
+var seongbok = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.60667, 127.027297),
     map: map
 });
 
 // 송파구
-var gangdong = new naver.maps.Marker({
+var songpa = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.521138, 127.121436),
     map: map
 });
 
 // 신촌로
-var gangdong = new naver.maps.Marker({
+var sinchon = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.554958, 126.936276),
     map: map
 });
 
 // 양천구
-var gangdong = new naver.maps.Marker({
+var yangcheon = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.523364, 126.858704),
     map: map
 });
 
 // 영등포구
-var gangdong = new naver.maps.Marker({
+var yeongdungpo = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.524955, 126.897329),
     map: map
 });
 
 // 영등포로
-var gangdong = new naver.maps.Marker({
+var yeongdungporo = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.519336, 126.904656),
     map: map
 });
 
 // 용산구
-var gangdong = new naver.maps.Marker({
+var yongsan = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.54005, 127.004839),
     map: map
 });
 
 // 은평구
-var gangdong = new naver.maps.Marker({
+var eunpyeong = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.60984, 126.934837),
     map: map
 });
 
 // 정릉로
-var gangdong = new naver.maps.Marker({
+var jeongnung = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.606726, 127.004857),
     map: map
 });
 
 // 종로
-var gangdong = new naver.maps.Marker({
+var jongro = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.571427, 126.995675),
     map: map
 });
 
 // 종로구
-var gangdong = new naver.maps.Marker({
+var jongrogu = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.572003, 127.005007),
     map: map
 });
 
 // 중구
-var gangdong = new naver.maps.Marker({
+var junggu = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.564311, 126.975134),
     map: map
 });
 
 // 중랑구
-var gangdong = new naver.maps.Marker({
+var jungnang = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.584892, 127.093979),
     map: map
 });
 
 // 천호대로
-var gangdong = new naver.maps.Marker({
+var cheonhodae = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.534424, 127.139375),
     map: map
 });
 
 // 청계천로
-var gangdong = new naver.maps.Marker({
+var cheongyechan = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.568618, 126.998059),
     map: map
 });
 
 // 한강대로
-var gangdong = new naver.maps.Marker({
+var hangangdae = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.549047, 126.970455),
     map: map
 });
 
 // 홍릉로
-var gangdong = new naver.maps.Marker({
+var hongneung = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.580416, 127.044754),
     map: map
 });
 
 // 화랑로
-var gangdong = new naver.maps.Marker({
+var hwarangro = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.617288, 127.075255),
     map: map
 });
 
 map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
+
+var gangnamContent = [
+        '<div class="iw_inner">',
+        '   <h3>서울특별시청</h3>',
+        '   <p>서울특별시 중구 태평로1가 31 | 서울특별시 중구 세종대로 110 서울특별시청<br />',
+        '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
+        '       <a href="http://www.seoul.go.kr" target="_blank">www.seoul.go.kr/</a>',
+        '   </p>',
+        '</div>'
+    ].join('');
+
+var infowindow = new naver.maps.InfoWindow({
+    content: gangnamContent,
+    maxWidth: 140,
+    backgroundColor: "#eee",
+    borderColor: "#2db400",
+    borderWidth: 5,
+    anchorSize: new naver.maps.Size(30, 30),
+    anchorSkew: true,
+    anchorColor: "#eee",
+    pixelOffset: new naver.maps.Point(20, -20)
+});
+
+naver.maps.Event.addListener(gangnam, "click", function(e) {
+    if (infowindow.getMap()) {
+        infowindow.close();
+    } else {
+        infowindow.open(map, gangnam);
+    }
+});
 
 
 // 지도 인터랙션 옵션
