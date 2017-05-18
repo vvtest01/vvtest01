@@ -312,7 +312,7 @@ $("#interaction").on("click", function(e) {
         map.setOptions({ //지도 인터랙션 켜기
             draggable: true,
             pinchZoom: true,
-            scrollWheel: true,
+            scrollWheel: false,
             keyboardShortcuts: true,
             disableDoubleTapZoom: false,
             disableDoubleClickZoom: false,
