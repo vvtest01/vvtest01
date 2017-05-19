@@ -279,7 +279,7 @@ var gangnamdaeroContent = [
         '</div>'
     ].join('');
 
-var infowindow = new naver.maps.InfoWindow({
+var infowindow2 = new naver.maps.InfoWindow({
     content: gangnamdaeroContent,
 });
 
