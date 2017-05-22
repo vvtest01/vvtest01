@@ -284,10 +284,10 @@ var infowindow2 = new naver.maps.InfoWindow({
 });
 
 naver.maps.Event.addListener(gangnamdaero, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
+    if (infowindow2.getMap()) {
+        infowindow2.close();
     } else {
-        infowindow.open(map, gangnamdaero);
+        infowindow2.open(map, gangnamdaero);
     }
 });
 
