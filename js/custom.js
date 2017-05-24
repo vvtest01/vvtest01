@@ -44,7 +44,7 @@ $(window).load(function() {
 
   doughnutWidget.render(data());
 
-  setInterval(init, 2000);
+  setInterval(init, 3000);
 });
 
 function init() {

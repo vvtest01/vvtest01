@@ -44,6 +44,12 @@ p {
     color: #666666;
 }
 
+.subtext {
+	font-size: 14px;
+	font-weight: 400;
+	color: #848484;
+}
+
 .content-bg {
 	background-color: #fff;
 	padding-bottom: 50px;
@@ -142,7 +148,7 @@ img {
 	width: 100%
 }
 
-.colourlegend {
+.colourlegend, .colourlegend-small {
 	border-top: 1px solid #cacaca;
 	border-bottom: 1px solid #cacaca;
 	padding: 10px 0;
@@ -155,6 +161,22 @@ img {
 	text-align: left;
 	line-height: normal;
 	margin: 0;
+}
+
+.colourlegend-small p {
+	width: auto;
+	font-size: 10px;
+	text-align: left;
+	line-height: normal;
+	margin: 0;
+}
+
+.legend {
+	padding: 10px 0 ;
+}
+
+.legend > .col-md-2, .col-md-3 {
+	padding: 0;
 }
 
 .box {
@@ -178,6 +200,14 @@ img {
 
 .box-red {
 	background-color: #e24b40;
+}
+
+.box-purple {
+	background-color: #812161;
+}
+
+.box-dark {
+	background-color: #3c166b;
 }
 
 .embed-container {
