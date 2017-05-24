@@ -66,35 +66,3 @@ function data() {
 
   return data;
 }
-
-arrayOfDataMulti = new Array(
-   	[[22,14,44,26],'2007'],
-   	[[54,18,38,38],'2008'],
-   	[[66,24,32,57],'2009']
-);	
-
-$('#exampleMulti').jqBarGraph({
-  	data: arrayOfDataMulti,
-  	showValues: false,
-  	colors: ['#242424','#437346','#97D95C'] 
-});
-
-arrayOfDataMulti2 = new Array(
-   	[[14,55,45,21],'2007'],
-   	[[11,51,23,95],'2008'],
-   	[[12,23,54,20],'2009']
-);	
-
-$('#exampleMulti2').jqBarGraph({
-  	data: arrayOfDataMulti2,
-  	showValues: false,
-  	colors: ['#242424','#437346','#97D95C'] 
-});
-
-$('#icon').on('click', function(){
-
-    $(this).parent()
-    .toggleClass('contact')
-    .toggleClass('contactexpand');
-
-});
