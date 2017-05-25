@@ -263,12 +263,12 @@ var infowindow = new naver.maps.InfoWindow({
 
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
-    maxWidth: 140,
+    maxWidth: 450,
     backgroundColor: "#eee",
-    borderColor: "#2db400",
-    borderWidth: 5,
+    borderColor: "#dadada",
+    borderWidth: 1,
     anchorSize: new naver.maps.Size(30, 30),
-    anchorSkew: true,
+    anchorSkew: false,
     anchorColor: "#eee",
     pixelOffset: new naver.maps.Point(20, -20)
 });
