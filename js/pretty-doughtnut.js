@@ -67,7 +67,8 @@ var doughnutWidget = {
 					}],
 					{
 						percentageInnerCutout: (doughnutWidget.options && doughnutWidget.options.cutout) ? doughnutWidget.options.cutout : 75,
-						animationEasing: 'easeOut',
+						animationEasing: 'linear',
+						animationDuration: 200,
 						showTooltips: false
 					});
 

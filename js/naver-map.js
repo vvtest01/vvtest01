@@ -261,6 +261,18 @@ var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
 });
 
+var infowindow = new naver.maps.InfoWindow({
+    content: gangnamContent,
+    maxWidth: 140,
+    backgroundColor: "#eee",
+    borderColor: "#2db400",
+    borderWidth: 5,
+    anchorSize: new naver.maps.Size(30, 30),
+    anchorSkew: true,
+    anchorColor: "#eee",
+    pixelOffset: new naver.maps.Point(20, -20)
+});
+
 naver.maps.Event.addListener(gangnam, "click", function(e) {
     if (infowindow.getMap()) {
         infowindow.close();

@@ -39,12 +39,12 @@ $(window).load(function() {
     width: 100,
     height: 100,
     class: 'donut1',
-    cutout: 50
+    cutout: 50,
   };
 
   doughnutWidget.render(data());
 
-  setInterval(init, 3000);
+  setInterval(init, 10000);
 });
 
 function init() {
@@ -66,3 +66,20 @@ function data() {
 
   return data;
 }
+
+Chart.defaults.global.animationSteps = 30;
+
+$( document ).ready(function() {
+$('#seoulpie').circliful({
+	foregroundColor: "#E24B40",
+	backgroundColor: "#dfdfdf",
+	foregroundBorderWidth: 40,
+	backgroundBorderWidth: 40,
+	showPercent: false,
+	textAdditionalCss: "display: none;",
+	textStyle: "font-size: 16px;",
+	textY: 100,
+	textX: 100,
+	animateInView: true
+});
+});

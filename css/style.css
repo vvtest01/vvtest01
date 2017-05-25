@@ -262,8 +262,8 @@ img {
 }
 
 #서울Label {
-	left: -182px !important;
-	top: -117px !important;
+	left: -207px !important;
+	top: -132px !important;
 }
 
 #서울Label > div.labelText {
@@ -277,8 +277,8 @@ img {
 }
 
 #부산Label {
-	left: 196px !important;
-	top: -117px !important;
+	left: 218px !important;
+	top: -132px !important;
 }
 
 #부산Label > div.labelText {
@@ -292,21 +292,32 @@ img {
 }
 
 #donut {
-	margin-top: -350px;
+	margin-top: -360px;
 	text-align: center;
 }
 
 .donut1 {
-	width: 325px !important;
-	margin-left: -365px;
+	width: 400px !important;
+	margin-left: -415px;
 	height: auto !important;
 }
 
 canvas#부산 {
-	margin-left: 393px;
-    margin-top: -140px;
+	margin-left: 435px;
+    margin-top: -219px;
 }
 
+tspan .number {
+	display: none !important;
+}
+
+
+.donuttest {
+	    position: absolute;
+    left: 110px;
+    bottom: 410px;
+    text-align: center;
+}
 
 /*
 #slides {
