@@ -319,6 +319,10 @@ tspan .number {
     text-align: center;
 }
 
+.iw_inner {
+	padding: 0 30px;
+}
+
 /*
 #slides {
       display: none;
