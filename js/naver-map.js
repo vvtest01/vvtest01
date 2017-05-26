@@ -264,12 +264,12 @@ var infowindow = new naver.maps.InfoWindow({
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
     maxWidth: 450,
-    backgroundColor: "#eee",
+    backgroundColor: "#fff",
     borderColor: "#dadada",
     borderWidth: 1,
     anchorSize: new naver.maps.Size(30, 10),
     anchorSkew: false,
-    anchorColor: "#eee",
+    anchorColor: "#fff",
     pixelOffset: new naver.maps.Point(20, -20)
 });
 
