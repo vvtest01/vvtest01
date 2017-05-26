@@ -267,7 +267,7 @@ var infowindow = new naver.maps.InfoWindow({
     backgroundColor: "#eee",
     borderColor: "#dadada",
     borderWidth: 1,
-    anchorSize: new naver.maps.Size(30, 30),
+    anchorSize: new naver.maps.Size(10, 10),
     anchorSkew: false,
     anchorColor: "#eee",
     pixelOffset: new naver.maps.Point(20, -20)
