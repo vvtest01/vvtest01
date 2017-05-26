@@ -263,15 +263,15 @@ var marker = new naver.maps.Marker({
     position: cityhall
 });
 
-var infowindow = new naver.maps.InfoWindow({
+var infowindow3 = new naver.maps.InfoWindow({
     content: contentString
 });
 
 naver.maps.Event.addListener(marker, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
+    if (infowindow3.getMap()) {
+        infowindow3.close();
     } else {
-        infowindow.open(map, marker);
+        infowindow3.open(map, marker);
     }
 });
 
