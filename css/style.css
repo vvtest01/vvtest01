@@ -66,7 +66,7 @@ p {
 	background-color: transparent;
 }
 
- .nav-pills>li.active>a::after {
+.nav-pills>li.active>a::after {
 	content: " ";
     border: 1.5px solid #1bbc9b;
     margin-top: 5px;
@@ -145,7 +145,6 @@ p {
 img {
 	display: block;
 	margin: 30px auto;
-	width: 100%
 }
 
 .colourlegend, .colourlegend-small {
@@ -173,6 +172,7 @@ img {
 
 .legend {
 	padding: 10px 0 ;
+	height: 100px;
 }
 
 .legend > .col-md-2, .col-md-3 {
@@ -321,6 +321,54 @@ tspan .number {
 
 .iw_inner {
 	margin: 30px;
+}
+
+#airkorea
+{
+    width    : 378px;
+    height   : 482px;
+    overflow : hidden;
+    position : relative;
+}
+
+#akiframe
+{
+    position : absolute;
+    top      : -118px;
+    left     : -294px;
+    width    : 1290px;
+    height   : 1200px;
+    -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+}
+
+#tenki
+{
+    width    : 454px;
+    height   : 415px;
+    overflow : hidden;
+    position : relative;
+}
+
+#tenkiframe
+{
+    position : absolute;
+    top      : -256px;
+    left     : -139px;
+    width    : 1290px;
+    height   : 1200px;
+    -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
 }
 
 /*
