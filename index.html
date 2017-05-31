@@ -89,7 +89,7 @@
 
                   <div class="row colourlegend">
                   <div class="col-md-12 text-center legend">
-                    <div class="col-md-2 col-md-offset-1">
+                    <div class="col-md-2 col-md-offset-2">
                       <div class="box box-green"></div> <p>0-30 | 좋음</p>
                     </div>
 
@@ -110,25 +110,6 @@
 
                 <img src="./img/17.05.11_pm10-graphs.jpg">
 
-                <div class="slides">
-    <div><img src="./img/2006_graph.png"></div>
-    <div><img src="./img/2007_graph.png"></div>
-    <div><img src="./img/2008_graph.png"></div>
-    <div><img src="./img/2009_graph.png"></div>
-    <div><img src="./img/2010_graph.png"></div>
-    <div><img src="./img/2011_graph.png"></div>
-    <div><img src="./img/2012_graph.png"></div>
-    <div><img src="./img/2013_graph.png"></div>
-    <div><img src="./img/2014_graph.png"></div>
-    <div><img src="./img/2015_graph.png"></div>
-    <div><img src="./img/2015_graph.png"></div>
-  </div>
-
-  <div class="playpause">
-<span class="glyphicon glyphicon-pause pause"></span>
-
-<span class="glyphicon glyphicon-play play"></span>
-</div>
 
               <p>‘미세먼지 농도가 점점 좋아지고 있다고?’<br />
 지난 10년간 측정된 미세먼지를 분석해보면, 놀랍게도 <span class="highlighted">미세먼지 농도는 점차 완화 중</span>인 것으로 나타났습니다.<br />
@@ -163,7 +144,7 @@
 
               <h4>[한적한 공원에 워치한 대기 측정소 <span class="subtext">서울시 성동구 관즉소, 서울슾</span>]</h4>
 
-              <img src="http://v-vdesign.com/wp-content/uploads/2017/03/finedust_progress_2-1.jpg">
+              <img src="./img/locationphotos.png">
 
               <p>초미세먼지 측정기 175대 중, 일부는</p>
 
@@ -171,7 +152,6 @@
 
               <p>이말인 즉슨, 현실을 반영하지 않은 측정이 이루어지고 있다는 뜻입니다. 측정소를 대로변 등 유동인구가 많은 곳에 설치하도록 규정하는 미국, 일본 등과 비교가 되는 부분이죠.</p>
             
-              <img src="http://v-vdesign.com/wp-content/uploads/2017/03/finedust_progress_3-1.jpg">
 
               <h4>[위치의 현실성 검토가 필요한 측정소 <span class="subtext">서울, 부산 지역</span>]</h4>
 
@@ -179,16 +159,7 @@
 
               <div id="donut"></div> 
 
-              <div class="col-md-3 pie1">
-              <div id="seoulpie" 
-data-dimension="150" 
-data-width="50" 
-data-fontsize="38" 
-data-percent="67" 
-data-fill="#ddd">
-</div>
-<div class="donuttest"><p>서울<br>충 39기</p></div>
-</div> 
+              
 
 
 
@@ -235,15 +206,26 @@ data-fill="#ddd">
 
               <h4>[같은 시각 국내/외 초미세먼지(PM2.5) 예보 비교 <span class="subtext">(2016.11.29 정오 기준)</span>]</h4>
 
-              <img src="http://v-vdesign.com/wp-content/uploads/2016/11/ultrafine_dust_2.jpg">
+              <div class="row">
+                <div class="col-md-6">
+                <p class="text-center"><strong>국내</strong></p>
+                  <img src="./img/kormap.png">
+                </div>
+                <div class="col-md-6">
+                <p class="text-center"><strong>해외</strong> (일본)</p>
+                  <img src="./img/jpmap.png">
+                </div>
+              </div>
 
+<div class="row">
 <div id="airkorea" class="col-md-6">
-<iframe src="//www.airkorea.or.kr/index" id="akiframe" scrolling="no"></iframe>
+<iframe src="http://www.airkorea.or.kr/index" id="akiframe" scrolling="no"></iframe>
 </div>
 
 
-              <div id="tenki">
-<iframe src="https://www.google.com/search?q=%http://www.tenki.jp/particulate_matter/&btnI=Im+Feeling+Lucky" id="tenkiframe" scrolling="no"></iframe>
+              <div id="tenki" class="col-md-6">
+<iframe src="http://www.tenki.jp/particulate_matter/" id="tenkiframe" scrolling="no"></iframe>
+</div>
 </div>
 
               <p>확인 결과, 국내 초미세먼지 예보가 해외보다 낮은 단계로 발표되는 경우가 실제로 존재하는 걸 확인할 수 있었습니다. <em>(의혹이 사실로??)</em> 그렇다면 이렇게 우리나라 예보 결과 해외보다 좋게 발표되는 이유는 무엇일까요? 정말 국내 기관이 미세먼지 수치를 일부러 낮춰 발표하는 걸까요?</p>
@@ -273,7 +255,7 @@ data-fill="#ddd">
               </div>
 
 
-              <img src="http://v-vdesign.com/wp-content/uploads/2016/11/ultrafine-dust_legend_2.jpg">
+              <img src="./img/pm25graph.png">
 
               <p>국내/외 예보 기준을 비교한 위의 이미지를 살펴 보면, 전체 예보단계를 총 6구간으로 나눈 해외와 달리, <span class="highlighted">국내의 경우 4구간으로 나누어 상대적으로 정밀한 예보가 어렵습니다.</span> 특히, 0-150 수치의 구간, 평소 측정 빈도가 높은 구간에 관대한 기준을 적용하고 있습니다.</p>
 
@@ -289,7 +271,7 @@ data-fill="#ddd">
               </div>
 
               <div class="row">
-               <div class="col-md-6 colourlegend-small text-center legend">
+               <div class="col-md-6 colourlegend-small text-center legend2">
                     <div class="col-md-3">
                       <div class="box box-green"></div> <p>0-30 | 좋음</p>
                     </div>
@@ -308,7 +290,7 @@ data-fill="#ddd">
 
                 </div>
 
-                <div class="col-md-6 colourlegend-small text-center legend">
+                <div class="col-md-6 colourlegend-small text-center legend2">
                     <div class="col-md-4">
                       <div class="box box-green"></div> <p>0-12 | Good</p>
                     </div>
@@ -334,7 +316,7 @@ data-fill="#ddd">
                 </div>
               </div>
 
-              <img src="http://v-vdesign.com/wp-content/uploads/2016/11/2015_ultrafine_dust_2.jpg">
+              <img src="./img/pm25comparison.png">
 
               <p>그 결과, 해외에 비해 긍정적으로 예보한 날이 <span class="highlighted">무려 79일</span>이나 많았습니다.</p>
 
