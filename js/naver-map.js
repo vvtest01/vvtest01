@@ -297,8 +297,8 @@ naver.maps.Event.addListener(gangnam, "click", function(e) {
     }
 });
 
-document.getElementById("close").addEventListener("click", function(){
-    infowindow.close();
+naver.maps.Event.addListener(document.getElementById("close"), "click", function(e) {
+        infowindow.open(map, gangnam);
 });
 
 var gangnamdaeroContent = [
