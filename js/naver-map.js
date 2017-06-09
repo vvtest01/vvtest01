@@ -249,7 +249,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 var gangnamContent = [
         '<div class="iw_inner">',
-        '   <div class="row">',
+        '   <div class="row" style="background: #fff;">',
         '       <h5 style="margin: 0 0 20px; font-weight: 800;">송파 측정소</h5>',
         '   </div>',
         '   <div class="row">',
@@ -273,7 +273,7 @@ var gangnamContent = [
         '           <strong style="float: right;">위성사진</strong>',
         '       </div>',
         '       <div class="col-md-10">',
-        '           <img style="margin: 0;" src="./img/songpa.png">',
+        '           <img style="margin-top: 5px;" src="./img/songpa.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -285,12 +285,13 @@ var infowindow = new naver.maps.InfoWindow({
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
     minWidth: 450,
-    backgroundColor: "#fff",
-    borderColor: "#dadada",
+    backgroundColor: "#dadada",
+    borderColor: "#fff",
     borderWidth: 1,
+    borderRadius: 10,
     anchorSize: new naver.maps.Size(30, 10),
     anchorSkew: false,
-    anchorColor: "#fff",
+    anchorColor: "#dadada",
     pixelOffset: new naver.maps.Point(20, -20)
 });
 
