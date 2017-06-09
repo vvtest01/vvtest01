@@ -282,8 +282,8 @@ var gangnamContent = [
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
     minWidth: 450,
-    backgroundColor: "#fff",
-    borderColor: "#dadada",
+    backgroundColor: "transparent",
+    borderColor: "transparent",
     borderWidth: 1,
     disableAnchor: true,
     anchorSize: new naver.maps.Size(30, 10),
