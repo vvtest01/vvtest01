@@ -250,7 +250,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 var gangnamContent = [
         '<div class="iw_inner">',
         '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
-        '       <h5 style="margin: 20px 0; color: #fff;">송파 측정소</h5> <span class="close">Close</span>',
+        '       <h5 style="margin: 20px 0; color: #fff;">송파 측정소</h5> <span id="close">Close</span>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
         '       <div class="col-md-2">',
@@ -297,10 +297,8 @@ naver.maps.Event.addListener(gangnam, "click", function(e) {
     }
 });
 
-var closeWindow = document.querySelectorAll('.close');
-
-naver.maps.Event.addListener(closeWindow, "click", function(e) {
-        infowindow.close(map, closeWindow);
+document.getElementById("close").addEventListener("click", function(){
+    infowindow.close(map, closeWindow);
 });
 
 var gangnamdaeroContent = [
