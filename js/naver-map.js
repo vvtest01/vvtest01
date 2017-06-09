@@ -284,7 +284,7 @@ var infowindow = new naver.maps.InfoWindow({
 
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
-    maxWidth: 450,
+    minWidth: 450,
     backgroundColor: "#fff",
     borderColor: "#dadada",
     borderWidth: 1,
