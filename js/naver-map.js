@@ -250,7 +250,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 var gangnamContent = [
         '<div class="iw_inner">',
         '   <div class="row">',
-        '       <h5 style="margin: 0 0 20px;">송파 측정소</h5>',
+        '       <h5 style="margin: 0 0 20px; font-weight: 800;">송파 측정소</h5>',
         '   </div>',
         '   <div class="row">',
         '       <div class="col-md-3">',
