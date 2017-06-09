@@ -249,8 +249,8 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 var gangnamContent = [
         '<div class="iw_inner">',
-        '   <div class="row">',
-        '       <h5 style="margin: 0 0 20px; font-weight: 800;">송파 측정소</h5>',
+        '   <div style="background: #f2f2f2; margin: 0 15px 0 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; font-weight: 800;">송파 측정소</h5>',
         '   </div>',
         '   <div class="row">',
         '       <div class="col-md-2">',
@@ -273,7 +273,7 @@ var gangnamContent = [
         '           <strong style="float: right;">위성사진</strong>',
         '       </div>',
         '       <div class="col-md-10">',
-        '           <img style="margin-top: 5px;" src="./img/songpa.png">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/songpa.png">',
         '       </div>',
         '   </div>'
     ].join('');

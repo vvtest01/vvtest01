@@ -329,7 +329,7 @@ tspan .number {
 .iw_inner {
 	background-color: #fff;
 	border: 1px solid #dadada;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 30px;
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
 }
