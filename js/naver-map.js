@@ -300,11 +300,7 @@ naver.maps.Event.addListener(gangnam, "click", function(e) {
 var closeWindow = document.querySelectorAll('.close');
 
 naver.maps.Event.addListener(closeWindow, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.open();
-    } else {
         infowindow.close(map, closeWindow);
-    }
 });
 
 var gangnamdaeroContent = [
