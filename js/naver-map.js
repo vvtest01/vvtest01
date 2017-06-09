@@ -282,7 +282,7 @@ var gangnamContent = [
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
     minWidth: 450,
-    minHeight: 100,
+    maxHeight: 100,
     backgroundColor: "transparent",
     borderColor: "transparent",
     borderWidth: 1,
