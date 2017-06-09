@@ -273,7 +273,7 @@ var gangnamContent = [
         '           <strong>위성사진</strong>',
         '       </div>',
         '       <div class="col-md-9">',
-        '           <img src="./img/songpa.png">',
+        '           <img style="margin: 0;" src="./img/songpa.png">',
         '       </div>',
         '   </div>'
     ].join('');
