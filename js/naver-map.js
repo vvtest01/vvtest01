@@ -278,9 +278,6 @@ var gangnamContent = [
         '   </div>'
     ].join('');
 
-var infowindow = new naver.maps.InfoWindow({
-    content: gangnamContent,
-});
 
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
@@ -288,7 +285,6 @@ var infowindow = new naver.maps.InfoWindow({
     backgroundColor: "#fff",
     borderColor: "#dadada",
     borderWidth: 1,
-    borderRadius: 10,
     disableAnchor: true,
     anchorSize: new naver.maps.Size(30, 10),
     anchorSkew: false,
