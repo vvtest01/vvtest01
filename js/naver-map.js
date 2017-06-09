@@ -301,9 +301,9 @@ var closeWindow = document.querySelectorAll('.close');
 
 naver.maps.Event.addListener(closeWindow, "click", function(e) {
     if (infowindow.getMap()) {
-        infowindow.close();
+        infowindow.open();
     } else {
-        infowindow.open(map, gangnam);
+        infowindow.close(map, closeWindow);
     }
 });
 
