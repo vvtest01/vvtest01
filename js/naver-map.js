@@ -249,7 +249,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 var gangnamContent = [
         '<div class="iw_inner">',
-        '   <div style="background: #2F96FC; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
         '       <h5 style="margin: 20px 0; color: #fff;">송파 측정소</h5>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
