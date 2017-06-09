@@ -287,10 +287,6 @@ var infowindow = new naver.maps.InfoWindow({
     borderColor: "transparent",
     borderWidth: 1,
     disableAnchor: true,
-    anchorSize: new naver.maps.Size(30, 10),
-    anchorSkew: false,
-    anchorColor: "#dadada",
-    pixelOffset: new naver.maps.Point(20, -20)
 });
 
 naver.maps.Event.addListener(gangnam, "click", function(e) {
