@@ -249,7 +249,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 
 var gangnamContent = [
         '<div class="iw_inner">',
-        '   <div class="row" style="background: #fff;">',
+        '   <div class="row">',
         '       <h5 style="margin: 0 0 20px; font-weight: 800;">송파 측정소</h5>',
         '   </div>',
         '   <div class="row">',
@@ -285,10 +285,11 @@ var infowindow = new naver.maps.InfoWindow({
 var infowindow = new naver.maps.InfoWindow({
     content: gangnamContent,
     minWidth: 450,
-    backgroundColor: "#dadada",
-    borderColor: "#fff",
+    backgroundColor: "#fff",
+    borderColor: "#dadada",
     borderWidth: 1,
     borderRadius: 10,
+    disableAnchor: true,
     anchorSize: new naver.maps.Size(30, 10),
     anchorSkew: false,
     anchorColor: "#dadada",
