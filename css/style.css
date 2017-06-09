@@ -4,7 +4,7 @@ body {
   	font-family: 'Nanum Gothic', sans-serif;
   	word-break: keep-all;
   	overflow-x: hidden;
-  	line-height: 1.66;
+  	line-height: 1.9;
   	background-color: #f2f2f2;
 }
 
@@ -19,6 +19,7 @@ h2 {
 	font-size: 30px;
 	padding-bottom: 15px;
 	text-align: center;
+	line-height: 1.5;
 }
 
 h3 {
@@ -308,8 +309,9 @@ img {
 }
 
 canvas#부산 {
-	margin-left: 435px;
-    margin-top: -219px;
+	margin-left: 356px;
+    margin-top: -183px;
+    display: block;
 }
 
 tspan .number {
