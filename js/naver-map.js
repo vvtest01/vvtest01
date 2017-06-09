@@ -14,7 +14,9 @@ var HOME_PATH = window.HOME_PATH || '.';
 // 강남구
 var gangnam = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.517744, 127.047369),
-    map: map
+    map: map,
+    intersectNotice: true,
+        intersectNoticeTemplate: '<div style="width:180px;border:solid 1px #333;background-color:#fff;padding:5px;"><em style="font-weight:bold;color:#f00;">{{count}}</em>개의 마커가 있습니다.</div>'
 });
 
 // 강남대로
