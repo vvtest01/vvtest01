@@ -398,6 +398,7 @@ tspan .number {
     height   : 415px;
     overflow : hidden;
     position : relative;
+    float: right;
 }
 
 #tenkiframe
