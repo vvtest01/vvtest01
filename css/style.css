@@ -302,10 +302,45 @@ img {
 	text-align: center;
 }
 
+.donuts {
+	width: 500px;
+	height: 400px;
+}
+
+.pie1 {
+	position: inherit;
+	    width: 250px;
+    top: -365px;
+    left: -105px;
+}
+
+.pie2 {
+	position: inherit;
+	    width: 250px;
+    top: -540px;
+    left: 330px;
+}
+
 .donut1 {
 	width: 400px !important;
 	margin-left: -415px;
 	height: auto !important;
+}
+
+.seoultext, .busantext {
+	    position: absolute;
+	    top: 95px;
+    left: 94px;
+    text-align: center;
+}
+
+.cityname::after {
+	content: "________";
+    display: block;
+    color: #eee;
+    line-height: 0;
+    margin-top: -6px;
+    margin-bottom: 7px;
 }
 
 canvas#부산 {

@@ -83,3 +83,18 @@ $('#seoulpie').circliful({
 	animateInView: true
 });
 });
+
+$( document ).ready(function() {
+$('#busanpie').circliful({
+  foregroundColor: "#E24B40",
+  backgroundColor: "#dfdfdf",
+  foregroundBorderWidth: 40,
+  backgroundBorderWidth: 40,
+  showPercent: false,
+  textAdditionalCss: "display: none;",
+  textStyle: "font-size: 16px;",
+  textY: 100,
+  textX: 100,
+  animateInView: true
+});
+});
