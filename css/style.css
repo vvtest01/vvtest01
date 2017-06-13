@@ -145,8 +145,8 @@ p {
 
 img {
 	display: block;
-	/*margin: 30px auto;*/
-	width: 100%;
+	margin: 0 auto;
+	/*width: 100%;*/
 }
 
 .colourlegend, .colourlegend-small {
@@ -343,6 +343,10 @@ img {
     margin-bottom: 7px;
 }
 
+.mobile-donuts {
+	display: none;
+}
+
 canvas#부산 {
 	margin-left: 356px;
     margin-top: -183px;
@@ -373,6 +377,7 @@ tspan .number {
     height   : 482px;
     overflow : hidden;
     position : relative;
+    margin-left: 13px;
 }
 
 #akiframe
@@ -397,7 +402,6 @@ tspan .number {
     height   : 415px;
     overflow : hidden;
     position : relative;
-    float: right;
 }
 
 #tenkiframe
@@ -545,3 +549,12 @@ tspan .number {
 	}
 }
 
+@media (max-width: 767px) {
+	.donuts {
+		display: none;
+	}
+
+	.mobile-donuts {
+		display: block;
+	}
+}
