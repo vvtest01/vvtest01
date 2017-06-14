@@ -257,7 +257,7 @@ var gangnamContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 강남구 학동로 426 강남구청 별관 1동</p>',
+        '           <p>강남구 학동로 426 강남구청 별관 1동</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -307,7 +307,7 @@ var gangnamdaeroContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 서초구 강남대로 201 서초구민회관 앞 중앙차로</p>',
+        '           <p>서초구 강남대로 201 서초구민회관 앞 중앙차로</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -356,7 +356,7 @@ var gangdongContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 강동구 구천면로 42길 59 천호1동 주민센터</p>',
+        '           <p>강동구 구천면로 42길 59 천호1동 주민센터</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -405,7 +405,7 @@ var gangbyeonbokContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 성동구 강변북로 257 한강사업본부 옆</p>',
+        '           <p>성동구 강변북로 257 한강사업본부 옆</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -454,7 +454,7 @@ var gangbokContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 강북구 덕릉로41길 74 번1동 주민센터</p>',
+        '           <p>강북구 덕릉로41길 74 번1동 주민센터</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -503,7 +503,7 @@ var gangseoContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 강서로45다길 71 화곡3동 푸른들청소년도서관</p>',
+        '           <p>강서로45다길 71 화곡3동 푸른들청소년도서관</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -539,6 +539,104 @@ naver.maps.Event.addListener(gangseo, "click", function(e) {
         infowindow6.close();
     } else {
         infowindow6.open(map, gangseo);
+    }
+});
+
+var gonghangdaeroContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">공항대로 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>강서구 마곡동 727-1091 마곡역 중앙차로정류장 옆</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gonghangdaero.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow7 = new naver.maps.InfoWindow({
+    content: gonghangdaeroContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gonghangdaero, "click", function(e) {
+    if (infowindow7.getMap()) {
+        infowindow7.close();
+    } else {
+        infowindow7.open(map, gonghangdaero);
+    }
+});
+
+var gwanakContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">관악구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>관악구 신림동길 14 신림동 주민센터</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gwanak.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow7 = new naver.maps.InfoWindow({
+    content: gwanakContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gwanak, "click", function(e) {
+    if (infowindow8.getMap()) {
+        infowindow8.close();
+    } else {
+        infowindow8.open(map, gwanak);
     }
 });
 
