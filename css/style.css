@@ -371,6 +371,11 @@ tspan .number {
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
 }
 
+.iw_title {
+	color: #666;
+	float: right;
+}
+
 #airkorea
 {
     width    : 378px;
@@ -560,5 +565,9 @@ tspan .number {
 
 	img {
 		width: 100%;
+	}
+
+	.iw_title {
+		float: left;
 	}
 }
