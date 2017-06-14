@@ -390,33 +390,33 @@ tspan .number {
 
 #airkorea
 {
-    width    : 371px;
-    height   : 478px;
+    width    : 248px;
+    height   : 319px;
     overflow : hidden;
     position : relative;
-    margin-left: 13px;
+    margin-right: 13px;
 }
 
 #akiframe
 {
     position : absolute;
-    top      : -118px;
-    left     : -298px;
+    top      : -79px;
+    left     : -199px;
     width    : 1290px;
     height   : 1200px;
-    -ms-zoom: 0.75;
-        -moz-transform: scale(0.75);
+    -ms-zoom: 0.5;
+        -moz-transform: scale(0.5);
         -moz-transform-origin: 0 0;
-        -o-transform: scale(0.75);
+        -o-transform: scale(0.5);
         -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.75);
+        -webkit-transform: scale(0.5);
         -webkit-transform-origin: 0 0;
 }
 
 #tenki
 {
-    width    : 440px;
-    height   : 379px;
+    width    : 293px;
+    height   : 251px;
     overflow : hidden;
     position : relative;
 }
@@ -424,16 +424,16 @@ tspan .number {
 #tenkiframe
 {
     position : absolute;
-    top      : -265px;
-    left     : -145px;
+    top      : -179px;
+    left     : -97px;
     width    : 1290px;
     height   : 1200px;
-    -ms-zoom: 0.75;
-        -moz-transform: scale(0.75);
+    -ms-zoom: 0.5;
+        -moz-transform: scale(0.5);
         -moz-transform-origin: 0 0;
-        -o-transform: scale(0.75);
+        -o-transform: scale(0.5);
         -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.75);
+        -webkit-transform: scale(0.5);
         -webkit-transform-origin: 0 0;
 }
 
