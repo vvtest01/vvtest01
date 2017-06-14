@@ -395,6 +395,55 @@ naver.maps.Event.addListener(gangdong, "click", function(e) {
     }
 });
 
+var gangbyeonbokContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">강변북로 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>서울 성동구 강변북로 257 한강사업본부 옆</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangbyeonbok.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow4 = new naver.maps.InfoWindow({
+    content: gangbyeonbokContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gangbyeonbok, "click", function(e) {
+    if (infowindow4.getMap()) {
+        infowindow4.close();
+    } else {
+        infowindow4.open(map, gangbyeonbok);
+    }
+});
+
 // 지도 인터랙션 옵션
 $("#interaction").on("click", function(e) {
     e.preventDefault();
