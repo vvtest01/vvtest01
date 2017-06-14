@@ -250,7 +250,7 @@ map.setMapTypeId(naver.maps.MapTypeId.HYBRID);
 var gangnamContent = [
         '<div class="iw_inner">',
         '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
-        '       <h5 style="margin: 20px 0; color: #fff;">강남 측정소</h5>',
+        '       <h5 style="margin: 20px 0; color: #fff;">강남구 측정소</h5>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
         '       <div class="col-md-2">',
@@ -441,6 +441,104 @@ naver.maps.Event.addListener(gangbyeonbok, "click", function(e) {
         infowindow4.close();
     } else {
         infowindow4.open(map, gangbyeonbok);
+    }
+});
+
+var gangbokContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">강북구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>서울 강북구 덕릉로41길 74 번1동 주민센터</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangbok.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow5 = new naver.maps.InfoWindow({
+    content: gangbokContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gangbok, "click", function(e) {
+    if (infowindow5.getMap()) {
+        infowindow5.close();
+    } else {
+        infowindow5.open(map, gangbok);
+    }
+});
+
+var gangseoContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">강서구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>서울 강서로45다길 71 화곡3동 푸른들청소년도서관</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangseo.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow6 = new naver.maps.InfoWindow({
+    content: gangseoContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gangseo, "click", function(e) {
+    if (infowindow6.getMap()) {
+        infowindow6.close();
+    } else {
+        infowindow6.open(map, gangseo);
     }
 });
 
