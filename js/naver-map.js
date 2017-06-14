@@ -300,14 +300,14 @@ naver.maps.Event.addListener(gangnam, "click", function(e) {
 var gangnamdaeroContent = [
         '<div class="iw_inner">',
         '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
-        '       <h5 style="margin: 20px 0; color: #fff;">송파 측정소</h5>',
+        '       <h5 style="margin: 20px 0; color: #fff;">강남대로 측정소</h5>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
         '       <div class="col-md-2">',
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>서울 송파구 올림픽로 424 서울역사편찬원</p>',
+        '           <p>서울 서초구 강남대로 201 서초구민회관 앞 중앙차로</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -315,7 +315,7 @@ var gangnamdaeroContent = [
         '           <strong style="color: #666; float: right;">측정항목</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>PM10 PM2.5</p>',
+        '           <p>PM10</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -323,7 +323,7 @@ var gangnamdaeroContent = [
         '           <strong style="color: #666; float: right;">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/songpa.png">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangnamdaero.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -346,6 +346,54 @@ naver.maps.Event.addListener(gangnamdaero, "click", function(e) {
     }
 });
 
+var gangdongContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">강동구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>서울 강동구 구천면로 42길 59 천호1동 주민센터</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangdong.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow3 = new naver.maps.InfoWindow({
+    content: gangdongContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gangdong, "click", function(e) {
+    if (infowindow3.getMap()) {
+        infowindow3.close();
+    } else {
+        infowindow3.open(map, gangdong);
+    }
+});
 
 // 지도 인터랙션 옵션
 $("#interaction").on("click", function(e) {
