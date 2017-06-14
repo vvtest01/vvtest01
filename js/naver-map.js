@@ -622,7 +622,7 @@ var gwanakContent = [
         '   </div>'
     ].join('');
 
-var infowindow7 = new naver.maps.InfoWindow({
+var infowindow8 = new naver.maps.InfoWindow({
     content: gwanakContent,
     minWidth: 450,
     maxHeight: 100,
@@ -637,6 +637,55 @@ naver.maps.Event.addListener(gwanak, "click", function(e) {
         infowindow8.close();
     } else {
         infowindow8.open(map, gwanak);
+    }
+});
+
+var gwangjinContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">광진구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>서울 광진구 광나루로 571 구의아리수정수센터</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gwangjin.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow9 = new naver.maps.InfoWindow({
+    content: gwangjinContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(gwangjin, "click", function(e) {
+    if (infowindow9.getMap()) {
+        infowindow9.close();
+    } else {
+        infowindow9.open(map, gwangjin);
     }
 });
 

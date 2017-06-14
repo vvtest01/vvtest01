@@ -557,4 +557,8 @@ tspan .number {
 	.mobile-donuts {
 		display: block;
 	}
+
+	img {
+		width: 100%;
+	}
 }
