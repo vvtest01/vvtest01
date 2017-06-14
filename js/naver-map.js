@@ -1473,6 +1473,251 @@ naver.maps.Event.addListener(yangcheon, "click", function(e) {
     }
 });
 
+var yeongdungpoContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">영등포구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>영등포구 양산로23길 11 (당산1동 주민센터)</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yeongdungpo.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow26 = new naver.maps.InfoWindow({
+    content: yeongdungpoContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(yeongdungpo, "click", function(e) {
+    if (infowindow26.getMap()) {
+        infowindow26.close();
+    } else {
+        infowindow26.open(map, yeongdungpo);
+    }
+});
+
+var yeongdungporoContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">영등포로 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>영등포구 영중로 37 (영등포시장사거리)</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yeongdungporo.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow27 = new naver.maps.InfoWindow({
+    content: yeongdungporoContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(yeongdungporo, "click", function(e) {
+    if (infowindow27.getMap()) {
+        infowindow27.close();
+    } else {
+        infowindow27.open(map, yeongdungporo);
+    }
+});
+
+var yongsanContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">용산구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>용산구 한남대로 136 (서울특별시중부기술교육원)</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yongsan.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow28 = new naver.maps.InfoWindow({
+    content: yongsanContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(yongsan, "click", function(e) {
+    if (infowindow28.getMap()) {
+        infowindow28.close();
+    } else {
+        infowindow28.open(map, yongsan);
+    }
+});
+
+var eunpyeongContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">은평구 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>은평구 진흥로 215 (한국환경정책평가연구원)</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/eunpyeong.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow29 = new naver.maps.InfoWindow({
+    content: eunpyeongContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(eunpyeong, "click", function(e) {
+    if (infowindow29.getMap()) {
+        infowindow29.close();
+    } else {
+        infowindow29.open(map, eunpyeong);
+    }
+});
+
+var jeongnungContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">정릉로 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>성북구 정릉로 180 내부순환로 내선 정릉램프 출구</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10 PM2.5</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/jeongnung.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow30 = new naver.maps.InfoWindow({
+    content: jeongnungContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+naver.maps.Event.addListener(jeongnung, "click", function(e) {
+    if (infowindow30.getMap()) {
+        infowindow30.close();
+    } else {
+        infowindow30.open(map, jeongnung);
+    }
+});
+
 // 지도 인터랙션 옵션
 $("#interaction").on("click", function(e) {
     e.preventDefault();
