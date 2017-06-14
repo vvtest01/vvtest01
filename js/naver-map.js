@@ -1710,6 +1710,14 @@ var infowindow30 = new naver.maps.InfoWindow({
     disableAnchor: true,
 });
 
+naver.maps.Event.addListener(jeongnung, "click", function(e) {
+    if (infowindow30.getMap()) {
+        infowindow30.close();
+    } else {
+        infowindow30.open(map, jeongnung);
+    }
+});
+
 var jongroContent = [
         '<div class="iw_inner">',
         '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
@@ -2070,7 +2078,7 @@ var hongneungContent = [
         '           <strong style="color: #666; float: right;">주소</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <p>용산구 한강대로 405 (서울역 앞)</p>',
+        '           <p>동대문구 홍릉로 1 (청량리전철역 사거리 SC제일은행 앞)</p>',
         '       </div>',
         '   </div>',
         '   <div style="margin-left: 13px;" class="row">',
@@ -2107,6 +2115,56 @@ naver.maps.Event.addListener(hongneung, "click", function(e) {
         infowindow38.close();
     } else {
         infowindow38.open(map, hongneung);
+    }
+});
+
+var hwarangroContent = [
+        '<div class="iw_inner">',
+        '   <div style="background: #BDA284; margin: 0 0 15px 0; border-radius: 5px 5px 0 0;" class="row">',
+        '       <h5 style="margin: 20px 0; color: #fff;">화랑로 측정소</h5>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">주소</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>노원구 화랑로 429 태능입구역 8번 출구</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">측정항목</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <p>PM10</p>',
+        '       </div>',
+        '   </div>',
+        '   <div style="margin-left: 13px;" class="row">',
+        '       <div class="col-md-2">',
+        '           <strong style="color: #666; float: right;">위성사진</strong>',
+        '       </div>',
+        '       <div style="padding-left: 0;" class="col-md-10">',
+        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/hwarangro.png">',
+        '       </div>',
+        '   </div>'
+    ].join('');
+
+var infowindow39 = new naver.maps.InfoWindow({
+    content: hwarangroContent,
+    minWidth: 450,
+    maxHeight: 100,
+    backgroundColor: "transparent",
+    borderColor: "transparent",
+    borderWidth: 1,
+    disableAnchor: true,
+});
+
+
+naver.maps.Event.addListener(hwarangro, "click", function(e) {
+    if (infowindow39.getMap()) {
+        infowindow39.close();
+    } else {
+        infowindow39.open(map, hwarangro);
     }
 });
 
