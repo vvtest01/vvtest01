@@ -150,8 +150,8 @@ img {
 }
 
 .colourlegend, .colourlegend-small {
-	border-top: 1px solid #cacaca;
-	border-bottom: 1px solid #cacaca;
+	/*border-top: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca;*/
 	padding: 10px 0;
 	margin: 0 auto;
 }
