@@ -390,8 +390,8 @@ tspan .number {
 
 #airkorea
 {
-    width    : 378px;
-    height   : 482px;
+    width    : 371px;
+    height   : 478px;
     overflow : hidden;
     position : relative;
     margin-left: 13px;
@@ -401,7 +401,7 @@ tspan .number {
 {
     position : absolute;
     top      : -118px;
-    left     : -294px;
+    left     : -298px;
     width    : 1290px;
     height   : 1200px;
     -ms-zoom: 0.75;
@@ -415,8 +415,8 @@ tspan .number {
 
 #tenki
 {
-    width    : 454px;
-    height   : 415px;
+    width    : 440px;
+    height   : 379px;
     overflow : hidden;
     position : relative;
 }
@@ -424,8 +424,8 @@ tspan .number {
 #tenkiframe
 {
     position : absolute;
-    top      : -256px;
-    left     : -139px;
+    top      : -265px;
+    left     : -145px;
     width    : 1290px;
     height   : 1200px;
     -ms-zoom: 0.75;
