@@ -307,6 +307,18 @@ img {
 	height: 400px;
 }
 
+.donut-side {
+	position: absolute;
+	background-color: #b52623;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.seoul-side {
+	left: 149px;
+}
+
 .pie1 {
 	position: inherit;
 	    width: 250px;
@@ -569,5 +581,6 @@ tspan .number {
 
 	.iw_title {
 		float: left;
+		margin-right: 10px;
 	}
 }

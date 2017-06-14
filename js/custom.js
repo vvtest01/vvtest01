@@ -67,7 +67,7 @@ function data() {
   return data;
 }
 
-Chart.defaults.global.animationSteps = 30;
+Chart.defaults.global.animationSteps = 50;
 
 $( document ).ready(function() {
 $('#seoulpie').circliful({
