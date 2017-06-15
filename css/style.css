@@ -55,6 +55,10 @@ p {
     margin-bottom: 25px;
 }
 
+.top-title {
+	padding-top: 295px;
+}
+
 .title-sub {
 	text-shadow: 0 5px 10px rgba(0,0,0,0.2);
 	font-size: 39px;
@@ -278,6 +282,14 @@ img {
 	width: 100%;
 	text-align: left;
 	margin-left: 130px;
+}
+
+.donuts-sub {
+	display: inline-block; margin-left: 220px;
+}
+
+.donuts-sub-mob {
+	display: none;
 }
 
 .footer {
@@ -579,8 +591,17 @@ tspan .number {
 }
 
 @media (max-width: 991px) {
-	body {
-		background-color: #fff;
+
+	.donuts {
+		margin-left: 130px;
+	}
+
+	.donut-section {
+		margin-left: 0;
+	}
+
+	.top-title {
+		padding-top: 65px;
 	}
 
 	.hero {
@@ -588,14 +609,20 @@ tspan .number {
 	}
 
 	h1 {
-		font-size: 1.6em;
-		margin-top: 130px;
 	}
 }
 
 @media (max-width: 767px) {
 	.donuts {
 		display: none;
+	}
+
+	.donuts-sub {
+		display: none;
+	}
+
+	.donuts-sub-mob {
+		display: block;
 	}
 
 	.mobile-donuts {
