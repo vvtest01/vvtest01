@@ -2169,12 +2169,7 @@ naver.maps.Event.addListener(hwarangro, "click", function(e) {
     }
 });
 
-// 지도 인터랙션 옵션
-$("#interaction").on("click", function(e) {
-    e.preventDefault();
-
-    if (map.getOptions("draggable")) {
-        map.setOptions({ //지도 인터랙션 끄기
+map.setOptions({ //지도 인터랙션 끄기
             draggable: false,
             pinchZoom: false,
             scrollWheel: false,
@@ -2182,23 +2177,7 @@ $("#interaction").on("click", function(e) {
             disableDoubleTapZoom: true,
             disableDoubleClickZoom: true,
             disableTwoFingerTapZoom: true
-        });
 
-        $(this).removeClass("control-on");
-    } else {
-        map.setOptions({ //지도 인터랙션 켜기
-            draggable: true,
-            pinchZoom: true,
-        //    scrollWheel: true,
-            keyboardShortcuts: true,
-            disableDoubleTapZoom: false,
-            disableDoubleClickZoom: false,
-            disableTwoFingerTapZoom: false
-        });
-
-        $(this).addClass("control-on");
-    }
-});
 
 // 관성 드래깅 옵션
 $("#kinetic").on("click", function(e) {
