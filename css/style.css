@@ -6,6 +6,7 @@ body {
   	overflow-x: hidden;
   	line-height: 1.9;
   	background-color: #fff;
+  	padding: 0;
 }
 
 
@@ -82,13 +83,13 @@ p {
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-	color: #1bbc9b;
+	color: #917260;
 	background-color: transparent;
 }
 
 .nav-pills>li.active>a::after {
 	content: " ";
-    border: 1.5px solid #1bbc9b;
+    border: 1.5px solid #917260;
     margin-top: 5px;
     display: block;
     max-width: 25%;
@@ -99,19 +100,19 @@ p {
 }
 
 .nav>li>a:hover {
-	color: #1bbc9b;
+	color: #917260;
 }
 
 .nav-pills>li>a:hover::after {
 	content: " ";
-    border: 1.5px solid #1bbc9b;
+    border: 1.5px solid #917260;
     margin-top: 5px;
     display: block;
     max-width: 25%;
 } 
 
 .navigation-title {
-	color: #959595;
+	color: rgba(0,0,0,0.5);
 	font-style: italic;
 	margin-top: 5px;
 }
@@ -128,9 +129,9 @@ p {
 	color: #3cc;
 }
 
-.row {
+/*.row {
 	margin-right: 0;
-}
+}*/
 
 .hero {
 	background: url("../img/banner.jpg");
@@ -243,7 +244,6 @@ img {
 	height: 0;
 	overflow: hidden;
 	max-width: 100%;
-	z-index: 101;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -287,6 +287,7 @@ img {
 
 .footer-text {
 	color: #fff;
+	text-align: left;
 }
 
 .muted {
