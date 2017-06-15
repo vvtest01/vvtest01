@@ -2177,7 +2177,7 @@ map.setOptions({ //지도 인터랙션 끄기
             disableDoubleTapZoom: true,
             disableDoubleClickZoom: true,
             disableTwoFingerTapZoom: true
-
+});
 
 // 관성 드래깅 옵션
 $("#kinetic").on("click", function(e) {
