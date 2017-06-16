@@ -47,23 +47,21 @@
   
   
             <!-- FLOATING NAVIGATION -->
-    <div class="nav-bg">
-  <div class="navigation">
-    <div class="float-panel" data-top="40">
-        <nav class="navbar navbar-custom" role="navigation">
-          <ul class="nav nav-pills nav-stacked">
+
+    <div class="navigation float-panel" data-top="40">
+        <nav class="menu menu--shylock" id="nav-menu" role="navigation">
+          <ul class="menu menu__list">
             <li class="navigation-title">Navigate</li>
-            <li class="active"><a data-scroll href="#bars">Home</a></li>
-            <li><a data-scroll href="#locations">측정소</a></li>
-            <li><a data-scroll href="#reality">현실성</a></li>
-            <li><a data-scroll href="#compare">예보 비교</a></li>
-            <li><a data-scroll href="#difference">기준 차이</a></li> 
-            <li><a data-scroll href="#video">Video</a></li> 
+            <li class="menu__item menu__item--current"><a class="menu__link" href="#bars">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#locations">측정소</a></li>
+            <li class="menu__item"><a class="menu__link" href="#reality">현실성</a></li>
+            <li class="menu__item"><a class="menu__link" href="#compare">예보 비교</a></li>
+            <li class="menu__item"><a class="menu__link" href="#difference">기준 차이</a></li> 
+            <li class="menu__item"><a class="menu__link" href="#video">Video</a></li> 
            </ul>
         </nav>
     </div> 
-    </div>
-    </div>
+
       
       <!-- STATIC NAVIGATION -->
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -97,7 +95,7 @@
             <div class="row">
               <div class="col-md-12">
 
-              <h2>국내 미세먼지 측정 수치, 신뢰할 수 있을까요?</h2>
+              <h2>국내 미세먼지 측정 수치,<br />신뢰할 수 있을까요?</h2>
 
                 <p>십여 년 전만 해도 귀국행 여객기에서 보는 대한민국의 하늘은 도시가 훤히 보일 정도로 깨끗했습니다.<br />
       하지만 이제는 이런 모습 보기 참 힘들어졌습니다.  왜 그럴까요?<br />
@@ -110,19 +108,19 @@
 
                   <div class="row colourlegend">
                   <div class="col-md-12 text-center legend">
-                    <div class="col-md-2 col-md-offset-2">
+                    <div class="col-xs-3 col-md-2 col-md-offset-2">
                       <div class="box box-green"></div> <p>0-30 | 좋음</p>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-xs-3 col-md-2">
                       <div class="box box-yellow"></div> <p>31-80 | 보통</p>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-xs-3 col-md-2">
                       <div class="box box-orange"></div> <p>81-150 | 나쁨</p>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-xs-3 col-md-2">
                       <div class="box box-red"></div> <p>151- | 매우나쁨</p>
                     </div>
 
@@ -317,7 +315,7 @@ data-fill="#ddd">
 </div>
 </div>
 <section id="compare">
-<div class="row" style="padding-left: 50px;">
+<div class="row compare-section">
 <div class="col-md-8">
 <h5>[같은 시각 국내/외 초미세먼지(PM2.5) 예보 비교 <span class="subtext">(2016.11.29 정오 기준)</span>]</h5>
 <div class="row">
@@ -332,7 +330,7 @@ data-fill="#ddd">
               </div>
 </div>
 <div class="col-md-4" style="padding-top: 170px;">
-              <p style="text-align: left;">심지어 일부에서는 초미세먼지와 관련한 의혹 아닌 의혹이 떠돌고 있는데요, SNS나 개인 블로그를 통해 어렵지 않게 접할 수 있는 이러한 의문들. 정말 사실일까요? 사실 여부가 궁금해진 바이스 버사 디자인 스튜디오는 리서치를 시작했습니다.</p>
+              <p class="compare-text">심지어 일부에서는 초미세먼지와 관련한 의혹 아닌 의혹이 떠돌고 있는데요, SNS나 개인 블로그를 통해 어렵지 않게 접할 수 있는 이러한 의문들. 정말 사실일까요? 사실 여부가 궁금해진 바이스 버사 디자인 스튜디오는 리서치를 시작했습니다.</p>
 
               
 </div>
@@ -340,11 +338,11 @@ data-fill="#ddd">
 
               
 
-              <div class="row">
+              <div class="row realtime">
                 <h3>실시간 지도</h3>
               </div>
 
-<div class="row">
+<div class="row realtime">
 <div class="col-md-2"></div>
 <div id="airkorea" class="col-md-4">
 <iframe src="http://www.airkorea.or.kr/index" id="akiframe" scrolling="no"></iframe>
@@ -375,7 +373,7 @@ data-fill="#ddd">
 <section id="difference">
         <div class="row">
 
-            <div class="col-md-12 gray-section">
+            <div class="col-md-12 gray-section difference-section">
 
             <div class="col-md-8 col-md-offset-2 content-bg">
 
@@ -387,8 +385,8 @@ data-fill="#ddd">
               <h4 class="brown">‘초미세먼지 측정 수치’가 아닌 ‘예보 기준의 차이’었습니다.</h4>
 
               <div class="row">
-              <div class="col-md-6"><h5>[국내 초미세먼지 예보 기준]</h5></div>
-              <div class="col-md-6"><h5>[해외 초미세먼지 예보 기준 (EPI)]</h5></div>
+              <div class="col-xs-6 col-md-6"><h5>[국내 초미세먼지 예보 기준]</h5></div>
+              <div class="col-xs-6 col-md-6"><h5>[해외 초미세먼지 예보 기준 (EPI)]</h5></div>
               </div>
               </div>
 
@@ -418,45 +416,45 @@ data-fill="#ddd">
               </div>
 
               <div class="row">
-               <div class="col-md-6 colourlegend-small text-center legend2">
-                    <div class="col-md-3">
+               <div class="col-xs-6 col-md-6 colourlegend-small text-center legend2">
+                    <div class="col-xs-3 col-md-3">
                       <div class="box box-green"></div> <p>0-30 | 좋음</p>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-xs-3 col-md-3">
                       <div class="box box-yellow"></div> <p>31-80 | 보통</p>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-xs-3 col-md-3">
                       <div class="box box-orange"></div> <p>81-150 | 나쁨</p>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-xs-3 col-md-3">
                       <div class="box box-red"></div> <p>151- | 매우나쁨</p>
                     </div>
 
                 </div>
 
-                <div class="col-md-6 colourlegend-small text-center legend2">
-                    <div class="col-md-4">
+                <div class="col-xs-6 col-md-6 colourlegend-small text-center legend2">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-green"></div> <p>0-12 | Good</p>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-yellow"></div> <p>12.1-35.4 | Moderate</p>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-orange"></div> <p>35.5-55.4 | Unhealthy for Sensitive Groups</p>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-red"></div> <p>55.5-150.4 | Unhealthy</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-purple"></div> <p>150.5-250.4 | Very Unhealthy</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-md-4">
                       <div class="box box-dark"></div> <p>250.5-500.4 | Hazardous</p>
                     </div>
 
