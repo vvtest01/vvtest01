@@ -1,3 +1,5 @@
+new WOW().init();
+
 $('.slides').slick({
   slidesToShow: 5,
   arrows: false,
