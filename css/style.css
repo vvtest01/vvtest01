@@ -736,10 +736,6 @@ tspan .number {
 		font-size: 1em;
 	}
 
-	.box>p {
-		text-align: left !important;
-	}
-
 	p {
 		text-align: center !important;
 	}
@@ -796,9 +792,6 @@ tspan .number {
 		margin-right: 10px;
 	}
 
-	.box {
-		float: none;
-	}
 
 
 	.colourlegend-small {
