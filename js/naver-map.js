@@ -274,7 +274,7 @@ var gangnamContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangnam.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangnam.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -324,7 +324,7 @@ var gangnamdaeroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangnamdaero.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangnamdaero.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -373,7 +373,7 @@ var gangdongContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangdong.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangdong.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -422,7 +422,7 @@ var gangbyeonbokContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangbyeonbok.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangbyeonbok.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -471,7 +471,7 @@ var gangbokContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangbok.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangbok.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -520,7 +520,7 @@ var gangseoContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gangseo.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gangseo.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -569,7 +569,7 @@ var gonghangdaeroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gonghangdaero.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gonghangdaero.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -618,7 +618,7 @@ var gwanakContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gwanak.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gwanak.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -667,7 +667,7 @@ var gwangjinContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/gwangjin.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/gwangjin.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -716,7 +716,7 @@ var guroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/guro.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/guro.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -765,7 +765,7 @@ var geumcheonContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/geumcheon.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/geumcheon.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -814,7 +814,7 @@ var nowonContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/nowon.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/nowon.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -863,7 +863,7 @@ var dobongContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/dobong.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/dobong.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -912,7 +912,7 @@ var dosandaeContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/dosan.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/dosan.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -961,7 +961,7 @@ var dongdaemunContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/dongdaemun.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/dongdaemun.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1010,7 +1010,7 @@ var dongjakContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/dongjak.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/dongjak.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1059,7 +1059,7 @@ var dongjagdaeroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/dongjagdaero.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/dongjagdaero.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1108,7 +1108,7 @@ var mapoContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/mapo.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/mapo.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1157,7 +1157,7 @@ var seodaemunContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/seodaemun.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/seodaemun.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1206,7 +1206,7 @@ var seochoContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/seocho.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/seocho.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1255,7 +1255,7 @@ var seongdongContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/seongdong.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/seongdong.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1304,7 +1304,7 @@ var seongbokContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/seongbok.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/seongbok.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1353,7 +1353,7 @@ var songpaContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/songpa.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/songpa.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1402,7 +1402,7 @@ var sinchonContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/sinchon.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/sinchon.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1451,7 +1451,7 @@ var yangcheonContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yangcheon.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/yangcheon.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1500,7 +1500,7 @@ var yeongdungpoContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yeongdungpo.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/yeongdungpo.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1549,7 +1549,7 @@ var yeongdungporoContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yeongdungporo.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/yeongdungporo.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1598,7 +1598,7 @@ var yongsanContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/yongsan.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/yongsan.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1647,7 +1647,7 @@ var eunpyeongContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/eunpyeong.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/eunpyeong.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1696,7 +1696,7 @@ var jeongnungContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/jeongnung.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/jeongnung.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1745,7 +1745,7 @@ var jongroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/jongro.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/jongro.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1795,7 +1795,7 @@ var jongroguContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/jongrogu.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/jongrogu.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1845,7 +1845,7 @@ var jungguContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/junggu.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/junggu.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1895,7 +1895,7 @@ var jungnangContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/jungnang.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/jungnang.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1945,7 +1945,7 @@ var cheonhodaeContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/cheonhodae.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/cheonhodae.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -1995,7 +1995,7 @@ var cheongyechanContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/cheongyechan.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/cheongyechan.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -2045,7 +2045,7 @@ var hangangdaeContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/hangangdae.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/hangangdae.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -2095,7 +2095,7 @@ var hongneungContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/hongneung.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/hongneung.png">',
         '       </div>',
         '   </div>'
     ].join('');
@@ -2145,7 +2145,7 @@ var hwarangroContent = [
         '           <strong class="iw_title">위성사진</strong>',
         '       </div>',
         '       <div style="padding-left: 0;" class="col-md-10">',
-        '           <img style="margin-top: 5px; margin-bottom: 13px;" src="./img/hwarangro.png">',
+        '           <img style="width:100%; margin-top: 5px;  margin-bottom: 13px;" src="./img/hwarangro.png">',
         '       </div>',
         '   </div>'
     ].join('');
