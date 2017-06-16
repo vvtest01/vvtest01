@@ -736,8 +736,16 @@ tspan .number {
 		font-size: 1em;
 	}
 
+	.box>p {
+		text-align: left !important;
+	}
+
 	p {
 		text-align: center !important;
+	}
+
+	.location-photo-section {
+		height: 650px;
 	}
 
 	.donut-margin {
@@ -791,6 +799,7 @@ tspan .number {
 	.box {
 		float: none;
 	}
+
 
 	.colourlegend-small {
 		margin-bottom: 80px;
