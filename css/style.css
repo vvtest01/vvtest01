@@ -460,6 +460,10 @@ tspan .number {
 	padding-left: 10%;
 }
 
+.mobile-legend {
+	display: none;
+}
+
 #airkorea
 {
     width    : 248px;
@@ -792,7 +796,13 @@ tspan .number {
 		margin-right: 10px;
 	}
 
+	.legend, .legend2 {
+		display: none;
+	}
 
+	.mobile-legend, .mobile-legend2 {
+		display: block
+	}
 
 	.colourlegend-small {
 		margin-bottom: 80px;
